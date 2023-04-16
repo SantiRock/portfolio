@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px;
+  font-size: 14px;
+  letter-spacing: .03em;
+  background: linear-gradient(#99ccff -5%, #ccffcc 122%);
+  color: #2E2E2E; 
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
+  color: #2E2E2E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  margin: auto;
+  max-width: 1024px;
+
+}
+
+h1 {
+  margin:0;
+  font-size: 20px;
+  
+}
+
+.about{
+  margin-top: 20px;
+  max-width: 490px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px; 
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about p {
+  margin-top: 10px;
+
+}
+
+section {
+  margin-top: 20px;
+}
+
+section div {
+  margin-top: 15px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.filmoteka {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #99ccff;
+}
+
+.filmotek p {
+  margin-top: 5px;
 }
