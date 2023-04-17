@@ -4,13 +4,14 @@ import projects from './js/projects';
 
 const Btn = ( {text, handler} ) => <button className='btn' onClick={handler}>{text}</button>
 
-const Project = ( {link, name, tecnologies, description, role } ) => {
+const Project = ( {link, name, tecnologies, description, role, year } ) => {
   return (
     <div className='project'>
       <a href={link} target="_blank">
         <h3>{name}</h3>
         <p className='techs'>- {tecnologies.join(' ')}</p>
         <p><b>Role:</b> {role}</p>
+        <p><b>Year:</b> {year}</p>
         <p>{description}</p>
       </a>
     </div>
@@ -18,8 +19,8 @@ const Project = ( {link, name, tecnologies, description, role } ) => {
 }
 
 const Projects = ( {showAll} ) =>
-showAll.map(({link, name, tecnologies, description, role, id}) =>
-<Project key={id} link={link} name={name} tecnologies={tecnologies} description={description} role={role}/>)
+showAll.map(({link, name, tecnologies, description, role, id, year}) =>
+<Project key={id} link={link} name={name} tecnologies={tecnologies} description={description} role={role} year={year}/>)
 
 
 const App = () => {

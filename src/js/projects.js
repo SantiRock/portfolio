@@ -7,6 +7,7 @@ const projects = [
         description: 'Film library done with "The Movie Database API". Group academic project.',
         link: 'https://santirock.github.io/goit-javaband-jsproject/',
         tags: 'javascript',
+        year: '2023',
     },
 
     {
@@ -17,6 +18,7 @@ const projects = [
         description: 'IceCream brand page. Group academic project.',
         link: 'https://santirock.github.io/goit-starteam-backup/',
         tags: 'html',
+        year: '2022',
     },
 
     { 
@@ -27,6 +29,7 @@ const projects = [
         description: 'React tests',
         link: '',
         tags: 'react',
+        year: '2023',
     },
 
     {
@@ -37,6 +40,7 @@ const projects = [
         description: 'JavaScript tests',
         link: '',
         tags: 'javascript',
+        year: '2023',
     },
 
     {
@@ -46,7 +50,8 @@ const projects = [
         tecnologies: ['HTML', 'CSS', 'Reactive'],
         description: 'WebStudio brand page. Individual academic project',
         link: 'https://santirock.github.io/goit-markup-hw-08/',
-        tags: 'html'
+        tags: 'html',
+        year: '2022',
     }
 ]
 
