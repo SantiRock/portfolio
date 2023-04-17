@@ -7,8 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-width: 320px;
   min-height: 100vh;
-  margin: 20px;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: .03em;
   background: linear-gradient(#99ccff -5%, #ccffcc 122%);
   color: #2E2E2E; 
@@ -21,19 +20,20 @@ a{
 
 .container {
   margin: auto;
-  max-width: 1024px;
+  max-width: 1074px;
+  padding: 20px;
+  min-height: calc(100vh - 30px);
+}
 
+footer {
+  margin: 0 20px;
+  max-width: 1024px;
+  color: royalblue;
 }
 
 h1 {
   margin:0;
-  font-size: 20px;
-  
-}
-
-.about{
-  margin-top: 20px;
-  max-width: 490px;
+  font-size: 20px; 
 }
 
 h2 {
@@ -42,37 +42,144 @@ h2 {
   font-size: 18px;
 }
 
+h3 {
+  margin: 0;
+  font-size: 15px;
+  width: max-content;
+  display: inline;
+}
+
 p {
   margin: 0;
   line-height: 1.5;
   text-align: justify;
 }
 
-.about p {
-  margin-top: 10px;
-
+.header {
+  display: flex;
+  align-items: center;
 }
 
-section {
+.img {
+  margin-right: 10px;
+  width: 70px;
+}
+
+.n { margin-top: 5px;}
+
+.about{
   margin-top: 20px;
+  max-width: 490px;
 }
 
-section div {
+section { margin-bottom: 20px; }
+
+.btns {
+  text-align: center;
   margin-top: 15px;
+  margin-bottom: 18px;;
 }
 
-h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.filmoteka {
-  cursor: pointer;
-  padding: 5px;
+.btn {
+  margin-right: 10px;
+  border: none;
   border-radius: 4px;
+  padding: 10px 7px;
+  background-color: rgb(214, 253, 214);
+  color: rgb(30, 49, 105);
+  cursor: pointer;
+}
+
+.btn:hover{
+   transform: translateY(-2px);
+   background-color: rgb(198, 231, 198);
+   color: rgb(35, 59, 130);
+}
+
+.project {
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
   background-color: #99ccff;
 }
 
-.filmotek p {
+.project:hover,
+.projetc:focus {
+    box-shadow: -4px 4px 0px 0px 
+    royalblue;
+    border: 1px solid royalblue;
+    transform: translateY(-3px);
+}
+
+
+.project p {
   margin-top: 5px;
+}
+
+.techs {
+  margin-left: 5px;
+  font-size: 12px;
+  font-style: italic;
+  width: max-content;
+  display: inline;
+}
+
+@media screen and (min-width: 530px) {
+  .container {
+    padding: 50px;
+  }
+
+  .btn {
+    padding: 8px 18px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+
+  footer {
+    margin: 0 50px;
+  }
+
+}
+
+@media screen and (min-width: 627px) {
+  .header { align-items: start;}
+
+  .img { 
+    margin-right: 15px;
+    width: 150px;
+  }
+
+}
+
+@media screen and (min-width: 660px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 24px;
+  }
+   .project{
+    width: calc(50% - 12px);
+    padding: 15px;
+    margin: 0;
+    min-height: 100px;
+   }
+}
+
+@media screen and (min-width: 920px) {
+  .projects {
+    gap: 30px;
+  }
+
+  .project {
+    width: calc(33% - 20px);
+  }
+}
+
+@media screen and (min-width: 1074px) {
+  footer {
+    margin: auto;
+  }
+  
 }
