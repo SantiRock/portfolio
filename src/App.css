@@ -93,7 +93,7 @@ section { margin-bottom: 20px; }
 .btn:hover{
    transform: translateY(-2px);
    background-color: rgb(198, 231, 198);
-   color: rgb(35, 59, 130);
+   color: rgb(140, 162, 227);
 }
 
 .project {
@@ -128,6 +128,7 @@ section { margin-bottom: 20px; }
 @media screen and (min-width: 530px) {
   .container {
     padding: 50px;
+    padding-bottom: 20px;
   }
 
   .btn {

@@ -9,7 +9,7 @@ const Project = ( {link, name, tecnologies, description, role, year } ) => {
     <div className='project'>
       <a href={link} target="_blank">
         <h3>{name}</h3>
-        <p className='techs'>- {tecnologies.join(' ')}</p>
+        <p className='techs'>- {tecnologies.join(', ')}</p>
         <p><b>Role:</b> {role}</p>
         <p><b>Year:</b> {year}</p>
         <p>{description}</p>
