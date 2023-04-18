@@ -27,7 +27,7 @@ const projects = [
         role: 'Developper',
         tecnologies: ['React', 'JavaScript','HTML', 'CSS'],
         description: 'React exercices.',
-        link: 'https://santirock.github.io/Full-Stack-Open-Part2/#/phonebook',
+        link: 'https://santirock.github.io/react-exercices/',
         tags: 'react',
         year: '2023',
     },
@@ -40,7 +40,7 @@ const projects = [
         description: 'Image query with Pixabay API. Individual academic project.',
         link: 'https://santirock.github.io/goit-js-hw-11/',
         tags: 'javascript',
-        year: '2022',
+        year: '2023',
     },
 
     {
@@ -51,7 +51,7 @@ const projects = [
         description: 'Country query with Rest Countries API. Individual academic project.',
         link: 'https://santirock.github.io/goit-js-hw-10/',
         tags: 'javascript',
-        year: '2022',
+        year: '2023',
     },
 
     {
