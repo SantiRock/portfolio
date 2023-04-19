@@ -3,44 +3,61 @@ import myImage from '../images/df1.png';
 
 const Image = () => <img className='img' src={myImage} alt='Santiago'/>
 
-const Head1 = () => {
+const Btn = ( {text, handler} ) => <button className='btn1' onClick={handler}>{text}</button>
+
+const Titlee = ( {title, subtitle} ) => {
+    return (
+        <div>
+            <h1>{title}</h1>
+            <p className="n"><i>{subtitle}</i></p>
+        </div>
+    )
+}
+
+const Aboutt = ( {aboutTitle, about}) => {
+    return (
+        <section className='about'>
+            <h2>{aboutTitle}</h2>
+            <p>{about}</p>
+        </section>
+    )
+}
+
+
+const Head1 = ( {arr, handlerEs, handlerEn} ) => {
     return (
         <>
+            <div className='btns1'>
+                <Btn text='English' handler={handlerEn}/>
+                <Btn text='Español' handler={handlerEs}/>
+            </div>
+            
             <div className="header">
                 <Image />
-                <div>
-                    <h1>Santiago Quintero Portfolio</h1>
-                    <p className="n"><i>Developped with React</i></p>
-                </div>
+                <Titlee title={arr.title} subtitle={arr.subTitle} />
+             
             </div>
-
-            <section className="about">
-                <h2>About</h2>
-                <p>With a background in visual arts, 
-                I am currently in a career transition to web development.
-                Strong creative and analytical skills. Team player with an eye for detail. 
-                JavaScript, CSS, HTML, currently learning REACT.</p>
-            </section> 
+            <Aboutt aboutTitle={arr.aboutTitle} about={arr.about}/>
         </>
     )
 }
 
-const Head2 = () => {
+const Head2 = ({arr, handlerEs, handlerEn}) => {
     return (
-        <>
+        <>           
             <div className="header">
                 <Image />
-                <div>
-                    <h1>Santiago Quintero Portfolio</h1>
-                    <p className="n"><i>Developped with React</i></p>
-                
-                    <section className="about">
-                        <h2>About</h2>
-                        <p>With a background in visual arts, 
-                        I am currently in a career transition to web development.
-                        Strong creative and analytical skills. Team player with an eye for detail. 
-                        JavaScript, CSS, HTML, currently learning REACT.</p>
-                    </section> 
+                <div className='headc'>
+                    <div className='headd'>
+                        <h1>{arr.title}</h1>
+                        <div className='btns1'>
+                            <Btn text='English' handler={handlerEn}/>
+                            <Btn text='Español' handler={handlerEs}/>
+                        </div>
+                    </div>
+                    
+                    <p className="n"><i>{arr.subTitle}</i></p>
+                    <Aboutt aboutTitle={arr.aboutTitle} about={arr.about}/>              
                 </div>
             </div>
 
@@ -49,7 +66,7 @@ const Head2 = () => {
     )
 }
 
-const Head = () => {
+const Head = ({arr, handlerEn, handlerEs}) => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -63,9 +80,9 @@ const Head = () => {
     return (
         <>
             {windowWidth < 627 ? (
-                <Head1 />
+                <Head1 arr={arr} handlerEn={handlerEn} handlerEs={handlerEs} />
             ) : (
-                <Head2 />
+                <Head2 arr={arr} handlerEn={handlerEn} handlerEs={handlerEs}/>
             )}
         </>
     )

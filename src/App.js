@@ -1,65 +1,40 @@
-import { useState } from 'react'
 import './App.css';
-import projects from './js/projects';
+import LangApp from './js/bodyen';
+import Head from './js/head.js';
+import EnApp from './js/bodyen';
+import EsApp from './js/bodyes';
+import { acerca, about } from './js/about';
 
-const Btn = ( {text, handler} ) => <button className='btn' onClick={handler}>{text}</button>
+import { useState } from 'react';
 
-const Project = ( {link, name, tecnologies, description, role, year } ) => {
+const PreApp = ( {arr, handlerEn, handlerEs} ) => {
   return (
-    <div className='project'>
-      <a href={link} target="_blank">
-        <h3>{name}</h3>
-        <p className='techs'>- {tecnologies.join(', ')}</p>
-        <p><b>Role:</b> {role}</p>
-        <p><b>Year:</b> {year}</p>
-        <p>{description}</p>
-      </a>
-    </div>
+    <>
+      <Head arr={arr.arr1} handlerEn={handlerEn} handlerEs={handlerEs}/>
+      <EnApp />
+    </>
   )
 }
 
-const Projects = ( {showAll} ) =>
-showAll.map(({link, name, tecnologies, description, role, id, year}) =>
-<Project key={id} link={link} name={name} tecnologies={tecnologies} description={description} role={role} year={year}/>)
-
 
 const App = () => {
-  const [showAll, setShowAll] = useState(projects)
+  const arrEn = {arr1: about}
+  const arrEs = {arr1: acerca}
+  const [toShow, setToShow] = useState( arrEn )
 
-  const jsBtn = (event) => {
+  const handlerEn = (event) => {
     event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'javascript'))
+    setToShow(arrEn)
   }
 
-  const reactBtn = (event) => {
+  const handlerEs = (event) => {
     event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'react'))
-  }
-
-  const htmlBtn = (event) => {
-    event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'html'))
-  }
-
-  const allBtn = (event) => {
-    event.preventDefault();
-    setShowAll(projects)
+    setToShow(arrEs)
   }
 
 
   return (
-    <>
-      <div className='btns'>
-        <Btn text='React' handler={reactBtn}/>
-        <Btn text='JavaScript' handler={jsBtn}/>
-        <Btn text='HTML & CSS' handler={htmlBtn}/>
-        <Btn text='All' handler={allBtn}/>
-      </div>
-      <div className='projects'>
-        <Projects showAll={showAll}/>
-      </div>
-    </>
-
+    <PreApp arr={toShow} handlerEn={handlerEn} handlerEs={handlerEs}/>
   );
 }
 

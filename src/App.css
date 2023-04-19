@@ -33,7 +33,7 @@ footer {
 
 h1 {
   margin:0;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 h2 {
@@ -60,6 +60,16 @@ p {
   align-items: center;
 }
 
+.headc {
+  width: 100%;
+}
+
+.headd {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
 .img {
   margin-right: 10px;
   width: 70px;
@@ -80,6 +90,13 @@ section { margin-bottom: 20px; }
   margin-bottom: 18px;;
 }
 
+.btns1 {
+  margin-left: auto;
+  margin-bottom: 15px;
+  text-align: end;
+  width: 120px;
+}
+
 .btn {
   margin-right: 10px;
   border: none;
@@ -95,6 +112,23 @@ section { margin-bottom: 20px; }
    background-color: rgb(198, 231, 198);
    color: rgb(140, 162, 227);
 }
+
+.btn1 {
+  margin-right: 10px;
+  border: none;
+  padding: 0;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color:rgb(30, 49, 105);
+  font-weight: 500;
+}
+
+.btn1:hover {
+  color:rgb(229, 255, 229);
+}
+
+
 
 .project {
   margin-bottom: 15px;
@@ -149,6 +183,10 @@ section { margin-bottom: 20px; }
   .img { 
     margin-right: 15px;
     width: 150px;
+  }
+
+  .btns1{
+    margin: 0;
   }
 
 }
