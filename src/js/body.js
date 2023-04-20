@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { projects } from './projects';
 
 const Btn = ( {text, handler} ) => <button className='btn' onClick={handler}>{text}</button>
 
@@ -22,38 +21,39 @@ showAll.map(({link, name, tecnologies, description, role, id, year}) =>
 <Project key={id} link={link} name={name} tecnologies={tecnologies} description={description} role={role} year={year}/>)
 
 
-const EnApp = () => {
-  const [showAll, setShowAll] = useState(projects)
+const LangApp = ({arr}) => {
+  const proj = arr[0].projects
+  const [showAll, setShowAll] = useState(proj)
 
   const jsBtn = (event) => {
     event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'javascript'))
+    setShowAll(proj.filter(project => project.tags === 'javascript'))
   }
 
   const reactBtn = (event) => {
     event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'react'))
+    setShowAll(proj.filter(project => project.tags === 'react'))
   }
 
   const htmlBtn = (event) => {
     event.preventDefault();
-    setShowAll(projects.filter(project => project.tags === 'html'))
+    setShowAll(proj.filter(project => project.tags === 'html'))
   }
 
   const allBtn = (event) => {
     event.preventDefault();
-    setShowAll(projects)
+    setShowAll(proj)
   }
 
 
   return (
     <section className='prss'>
-      <h2>Projects</h2>
+      <h2>{arr[0].title}</h2>
       <div className='btns'>
         <Btn text='React' handler={reactBtn}/>
         <Btn text='JavaScript' handler={jsBtn}/>
         <Btn text='HTML & CSS' handler={htmlBtn}/>
-        <Btn text='All' handler={allBtn}/>
+        <Btn text={arr[0].all} handler={allBtn}/>
       </div>
       <div className='projects'>
         <Projects showAll={showAll}/>
@@ -63,4 +63,4 @@ const EnApp = () => {
   );
 }
 
-export default EnApp;
+export default LangApp;

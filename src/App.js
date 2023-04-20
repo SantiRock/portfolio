@@ -1,40 +1,33 @@
-import './App.css';
-import LangApp from './js/bodyen';
-import Head from './js/head.js';
-import EnApp from './js/bodyen';
-import EsApp from './js/bodyes';
-import { acerca, about } from './js/about';
-
 import { useState } from 'react';
-
-const PreApp = ( {arr, handlerEn, handlerEs} ) => {
-  return (
-    <>
-      <Head arr={arr.arr1} handlerEn={handlerEn} handlerEs={handlerEs}/>
-      <EnApp />
-    </>
-  )
-}
+import './App.css';
+import Head from './js/head.js';
+import LangApp from './js/body'
+import { acerca, about } from './js/about';
+import { projects, proyectos } from './js/projects';
 
 
 const App = () => {
-  const arrEn = {arr1: about}
-  const arrEs = {arr1: acerca}
-  const [toShow, setToShow] = useState( arrEn )
+  const [showHead, setShowHead] = useState( about )
+  const [showBody, setShowBody] = useState( projects )
+
 
   const handlerEn = (event) => {
     event.preventDefault();
-    setToShow(arrEn)
+    setShowHead(about)
+    setShowBody(projects)
   }
 
   const handlerEs = (event) => {
     event.preventDefault();
-    setToShow(arrEs)
+    setShowHead(acerca)
+    setShowBody(proyectos)
   }
 
-
   return (
-    <PreApp arr={toShow} handlerEn={handlerEn} handlerEs={handlerEs}/>
+    <>
+      <Head arr={showHead} handlerEn={handlerEn} handlerEs={handlerEs}/>
+      <LangApp arr={showBody} />
+    </>
   );
 }
 

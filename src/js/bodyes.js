@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { proyectos } from './projects';
+import { proyectos } from './projectsbeta';
 
 const Btn = ( {text, handler} ) => <button className='btn' onClick={handler}>{text}</button>
 
