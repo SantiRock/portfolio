@@ -1,6 +1,6 @@
 const about = {
     title: 'Santiago Quintero Portfolio',
-    subTitle: 'Developped with React',
+    subTitle: 'Developed with React',
     aboutTitle: 'About',
     about: 'With a background in visual arts, I am currently in a career transition to web development. Strong creative and analytical skills. Team player with an eye for detail. JavaScript, CSS, HTML, currently learning REACT.',
 }
