@@ -11,7 +11,7 @@ const projects = [
                 description: 'Film library done with "The Movie Database API". One week group academic project.',
                 link: 'https://santirock.github.io/goit-javaband-jsproject/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'April 2023',
             },
         
             {
@@ -22,7 +22,7 @@ const projects = [
                 description: 'IceCream brand page. One week group academic project.',
                 link: 'https://santirock.github.io/goit-starteam-backup/',
                 tags: 'html',
-                year: '2022',
+                year: 'November 2022',
             },
         
             { 
@@ -33,7 +33,7 @@ const projects = [
                 description: 'React exercices.',
                 link: 'https://santirock.github.io/react-exercices/',
                 tags: 'react',
-                year: '2023',
+                year: 'April 2023',
             },
         
             {
@@ -44,7 +44,7 @@ const projects = [
                 description: 'Image query with Pixabay API. Individual academic project.',
                 link: 'https://santirock.github.io/goit-js-hw-11/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'March 2023',
             },
         
             {
@@ -55,7 +55,7 @@ const projects = [
                 description: 'Country query with Rest Countries API. Individual academic project.',
                 link: 'https://santirock.github.io/goit-js-hw-10/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'March 2023',
             },
         
             {
@@ -66,7 +66,7 @@ const projects = [
                 description: 'JavaScript exercices.',
                 link: 'https://santirock.github.io/js-exercices/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'February 2023',
             },
         
             {
@@ -77,7 +77,7 @@ const projects = [
                 description: 'WebStudio brand page. Individual academic project.',
                 link: 'https://santirock.github.io/goit-markup-hw-08/',
                 tags: 'html',
-                year: '2022',
+                year: 'October 2022',
             }
         ]
     },
@@ -96,7 +96,7 @@ const proyectos = [
                 description: 'Filmoteca hecha con The Movie Database API. Proyecto académico grupal de una semana.',
                 link: 'https://santirock.github.io/goit-javaband-jsproject/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'Abril 2023',
             },
         
             {
@@ -107,7 +107,7 @@ const proyectos = [
                 description: 'Página de la marca IceCream. Proyecto académico grupal de una semana.',
                 link: 'https://santirock.github.io/goit-starteam-backup/',
                 tags: 'html',
-                year: '2022',
+                year: 'Noviembre 2022',
             },
         
             { 
@@ -118,7 +118,7 @@ const proyectos = [
                 description: 'Ejercicios con React.',
                 link: 'https://santirock.github.io/react-exercices/',
                 tags: 'react',
-                year: '2023',
+                year: 'Abril 2023',
             },
         
             {
@@ -129,7 +129,7 @@ const proyectos = [
                 description: 'Búsqueda de imágenes con Pixabay API. Proyecto académico individual.',
                 link: 'https://santirock.github.io/goit-js-hw-11/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'Marzo 2023',
             },
         
             {
@@ -140,7 +140,7 @@ const proyectos = [
                 description: 'Búsqueda de paises con Rest Countries API. Proyecto académico individual.',
                 link: 'https://santirock.github.io/goit-js-hw-10/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'Marzo 2023',
             },
         
             {
@@ -151,7 +151,7 @@ const proyectos = [
                 description: 'Ejercicios con JavaScript.',
                 link: 'https://santirock.github.io/js-exercices/',
                 tags: 'javascript',
-                year: '2023',
+                year: 'Frebrero 2023',
             },
         
             {
@@ -162,7 +162,7 @@ const proyectos = [
                 description: 'Página de la marca WebStudio. Proyecto académico individual.',
                 link: 'https://santirock.github.io/goit-markup-hw-08/',
                 tags: 'html',
-                year: '2022',
+                year: 'Octubre 2022',
             }
 
         ]
