@@ -13,9 +13,13 @@ body {
   color: #2E2E2E; 
 }
 
-a{
+a {
   text-decoration: none;
   color: #2E2E2E;
+}
+
+a:hover {
+  color: royalblue;
 }
 
 .container {
@@ -128,7 +132,10 @@ section { margin-bottom: 20px; }
 .btn1:hover {
   color:rgb(229, 255, 229);
 }
-
+ 
+.email{
+  display: inline;
+}
 
 
 .project {
