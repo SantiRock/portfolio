@@ -4,6 +4,28 @@ const projects = [
         all: 'All',
         projects: [
             {
+                name:'Kinopoisk',
+                id: 19,
+                role: 'Developper',
+                tecnologies: ['React', 'JavaScript', 'HTML', 'CSS'],
+                description: 'Movies App with "The Movie Database API". Individual academic project',
+                link: 'https://santirock.github.io/goit-react-hw-05-movies/',
+                tags: 'react',
+                year: 'May 2023',
+
+            },
+            {
+                name:'Image Query',
+                id: 18,
+                role: 'Developper',
+                tecnologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Responsive'],
+                description: 'Image query with Pixabay API. Individual academic project',
+                link: 'https://santirock.github.io/goit-react-hw-04-images/',
+                tags: 'react',
+                year: 'May 2023',
+
+            },
+            {
                 name:'Filmoteka',
                 id: 11,
                 role: 'Team Lead',
@@ -22,7 +44,7 @@ const projects = [
                 description: 'IceCream brand page. One week group academic project.',
                 link: 'https://santirock.github.io/goit-starteam-backup/',
                 tags: 'html',
-                year: 'November 2022',
+                year: 'December 2022',
             },
         
             { 
@@ -77,7 +99,7 @@ const projects = [
                 description: 'WebStudio brand page. Individual academic project.',
                 link: 'https://santirock.github.io/goit-markup-hw-08/',
                 tags: 'html',
-                year: 'October 2022',
+                year: 'November 2022',
             }
         ]
     },
@@ -89,11 +111,33 @@ const proyectos = [
         all: 'Todos',
         projects: [
             {
+                name:'Kinopoisk',
+                id: 19,
+                role: 'Desarrollador',
+                tecnologies: ['React', 'JavaScript', 'HTML', 'CSS'],
+                description: 'Movies App con "The Movie Database API". Proyecto académico individual.',
+                link: 'https://santirock.github.io/goit-react-hw-05-movies/',
+                tags: 'react',
+                year: 'Mayo 2023',
+
+            },
+            {
+                name:'Image Query',
+                id: 18,
+                role: 'Desarrollador',
+                tecnologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Responsive'],
+                description: 'Búsqueda de imágenes con Pixabay API. Proyecto académico individual.',
+                link: 'https://santirock.github.io/goit-react-hw-04-images/',
+                tags: 'react',
+                year: 'Mayo 2023',
+
+            },
+            {
                 name:'Filmoteka',
                 id: 11,
                 role: 'Team Lead',
                 tecnologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'Responsive'],
-                description: 'Filmoteca hecha con The Movie Database API. Proyecto académico grupal de una semana.',
+                description: 'Filmoteca hecha con "The Movie Database API". Proyecto académico grupal de una semana.',
                 link: 'https://santirock.github.io/goit-javaband-jsproject/',
                 tags: 'javascript',
                 year: 'Abril 2023',
@@ -107,7 +151,7 @@ const proyectos = [
                 description: 'Página de la marca IceCream. Proyecto académico grupal de una semana.',
                 link: 'https://santirock.github.io/goit-starteam-backup/',
                 tags: 'html',
-                year: 'Noviembre 2022',
+                year: 'Diciembre 2022',
             },
         
             { 
@@ -162,7 +206,7 @@ const proyectos = [
                 description: 'Página de la marca WebStudio. Proyecto académico individual.',
                 link: 'https://santirock.github.io/goit-markup-hw-08/',
                 tags: 'html',
-                year: 'Octubre 2022',
+                year: 'Noviembre 2022',
             }
 
         ]
