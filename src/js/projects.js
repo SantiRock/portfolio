@@ -6,7 +6,7 @@ const projects = [
             {
                 name:'Kinopoisk',
                 id: 19,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['React', 'JavaScript', 'HTML', 'CSS'],
                 description: 'Movies App with "The Movie Database API". Individual academic project',
                 link: 'https://santirock.github.io/goit-react-hw-05-movies/',
@@ -17,7 +17,7 @@ const projects = [
             {
                 name:'Image Query',
                 id: 18,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Responsive'],
                 description: 'Image query with Pixabay API. Individual academic project',
                 link: 'https://santirock.github.io/goit-react-hw-04-images/',
@@ -50,7 +50,7 @@ const projects = [
             { 
                 name:'React',
                 id: 13,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['React', 'JavaScript','HTML', 'CSS'],
                 description: 'React exercices.',
                 link: 'https://santirock.github.io/react-exercices/',
@@ -61,7 +61,7 @@ const projects = [
             {
                 name:'Image Query',
                 id: 14,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['JavaScript','HTML', 'CSS', 'Responsive'],
                 description: 'Image query with Pixabay API. Individual academic project.',
                 link: 'https://santirock.github.io/goit-js-hw-11/',
@@ -72,7 +72,7 @@ const projects = [
             {
                 name:'Country Query',
                 id: 15,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['JavaScript','HTML', 'CSS'],
                 description: 'Country query with Rest Countries API. Individual academic project.',
                 link: 'https://santirock.github.io/goit-js-hw-10/',
@@ -83,7 +83,7 @@ const projects = [
             {
                 name:'JavaScript',
                 id: 16,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['JavaScript','HTML', 'CSS'],
                 description: 'JavaScript exercices.',
                 link: 'https://santirock.github.io/js-exercices/',
@@ -94,7 +94,7 @@ const projects = [
             {
                 name:'WebStudio',
                 id: 17,
-                role: 'Developper',
+                role: 'Developer',
                 tecnologies: ['HTML', 'CSS', 'Responsive'],
                 description: 'WebStudio brand page. Individual academic project.',
                 link: 'https://santirock.github.io/goit-markup-hw-08/',

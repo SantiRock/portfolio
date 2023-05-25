@@ -2,14 +2,14 @@ const about = {
     title: 'Santiago Quintero Portfolio',
     subTitle: 'Developed with React',
     aboutTitle: 'About',
-    about: 'With a background in visual arts, I am currently in a career transition to web development. Strong creative and analytical skills. Team player with an eye for detail. JavaScript, CSS, HTML, currently learning REACT, coming soon Node.js',
+    about: 'Aspiring front-end developer with a background in visual arts and cultural management. Passionate about developing good-looking and user-friendly applications. Strong creative and analytical skills, life- long learner, team player with an eye for detail, trained vision, and sense of organization.',
 }
 
 const acerca = {
     title: 'Portafolio de Santiago Quintero',
     subTitle: 'Desarrollado con React',
     aboutTitle: 'Acerca',
-    about: 'Con experiencia en artes audiovisuales, actualmente estoy en una transición de carrera hacia el desarrollo web. Fuertes habilidades creativas y analíticas, buen trabajo en equipo, con ojo para los detalles. Manejo JavaScript, CSS, HTML, actualmente estoy aprendiendo REACT, próximamente Node.js',
+    about: 'Aspirante a desarrollador front-end con experiencia en artes visuales y gestión cultural. Apasionado por el desarrollo de aplicaciones atractivas y fáciles de usar. Fuertes habilidades creativas y analíticas, aprendiz de por vida, jugador de equipo con ojo para los detalles, visión entrenada y sentido de la organización.',
 }
 
 export { about, acerca};
