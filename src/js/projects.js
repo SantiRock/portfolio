@@ -4,6 +4,26 @@ const projects = [
         all: 'All',
         projects: [
             {
+                name:'Filmoteka',
+                id: 11,
+                role: 'Team Lead',
+                tecnologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'Responsive'],
+                description: 'Film library done with "The Movie Database API". One week group academic project.',
+                link: 'https://santirock.github.io/goit-javaband-jsproject/',
+                tags: 'javascript',
+                year: 'April 2023',
+            },
+            {
+                name:'Phonebook App',
+                id: 20,
+                role: 'Developer',
+                tecnologies: ['React', 'React Toolkit'],
+                description: 'Phonebook App with login. Individual academic project.',
+                link: 'https://santirock.github.io/goit-react-hw-08-phonebook/',
+                tags: 'react',
+                year: 'June 2023',
+            },
+            {
                 name:'Kinopoisk',
                 id: 19,
                 role: 'Developer',
@@ -12,6 +32,27 @@ const projects = [
                 link: 'https://santirock.github.io/goit-react-hw-05-movies/',
                 tags: 'react',
                 year: 'May 2023',
+
+            },
+            {
+                name:'IceCream',
+                id: 12,
+                role: 'Scrum Master',
+                tecnologies: ['HTML', 'CSS', 'Responsive'],
+                description: 'IceCream brand page. One week group academic project.',
+                link: 'https://santirock.github.io/goit-starteam-backup/',
+                tags: 'html',
+                year: 'December 2022',
+            },
+            {
+                name:'SWAPI Challenge',
+                id: 21,
+                role: 'Developer',
+                tecnologies: ['JavaScript Vanilla', 'HTML', 'CSS'],
+                description: 'The challenge was to create an app from swapi (The Star Wars Api) only with Javascript vanilla and basic styles.',
+                link: 'https://santirock.github.io/swapi-challenge/',
+                tags: 'javascript',
+                year: 'June 2023',
 
             },
             {
@@ -25,28 +66,6 @@ const projects = [
                 year: 'May 2023',
 
             },
-            {
-                name:'Filmoteka',
-                id: 11,
-                role: 'Team Lead',
-                tecnologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'Responsive'],
-                description: 'Film library done with "The Movie Database API". One week group academic project.',
-                link: 'https://santirock.github.io/goit-javaband-jsproject/',
-                tags: 'javascript',
-                year: 'April 2023',
-            },
-        
-            {
-                name:'IceCream',
-                id: 12,
-                role: 'Scrum Master',
-                tecnologies: ['HTML', 'CSS', 'Responsive'],
-                description: 'IceCream brand page. One week group academic project.',
-                link: 'https://santirock.github.io/goit-starteam-backup/',
-                tags: 'html',
-                year: 'December 2022',
-            },
-        
             { 
                 name:'React',
                 id: 13,
@@ -111,6 +130,26 @@ const proyectos = [
         all: 'Todos',
         projects: [
             {
+                name:'Filmoteka',
+                id: 11,
+                role: 'Team Lead',
+                tecnologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'Responsive'],
+                description: 'Filmoteca hecha con "The Movie Database API". Proyecto académico grupal de una semana.',
+                link: 'https://santirock.github.io/goit-javaband-jsproject/',
+                tags: 'javascript',
+                year: 'Abril 2023',
+            },
+            {
+                name:'Phonebook App',
+                id: 20,
+                role: 'Desarrollador',
+                tecnologies: ['React', 'React Toolkit'],
+                description: 'Libreta Telefónica con login. Proyecto académico individual.',
+                link: 'https://santirock.github.io/goit-react-hw-08-phonebook/',
+                tags: 'react',
+                year: 'Junio 2023',
+            },
+            {
                 name:'Kinopoisk',
                 id: 19,
                 role: 'Desarrollador',
@@ -119,6 +158,27 @@ const proyectos = [
                 link: 'https://santirock.github.io/goit-react-hw-05-movies/',
                 tags: 'react',
                 year: 'Mayo 2023',
+
+            },
+            {
+                name:'IceCream',
+                id: 12,
+                role: 'Scrum Master',
+                tecnologies: ['HTML', 'CSS', 'Responsive'],
+                description: 'Página de la marca IceCream. Proyecto académico grupal de una semana.',
+                link: 'https://santirock.github.io/goit-starteam-backup/',
+                tags: 'html',
+                year: 'Diciembre 2022',
+            },
+            {
+                name:'SWAPI Challenge',
+                id: 21,
+                role: 'Desarrolador',
+                tecnologies: ['JavaScript Vanilla', 'HTML', 'CSS'],
+                description: 'El desafío era crear una aplicación desde swapi (The Star Wars Api) solo con Javascript vanilla y estilos básicos.',
+                link: 'https://santirock.github.io/swapi-challenge/',
+                tags: 'javascript',
+                year: 'Junio 2023',
 
             },
             {
@@ -132,28 +192,6 @@ const proyectos = [
                 year: 'Mayo 2023',
 
             },
-            {
-                name:'Filmoteka',
-                id: 11,
-                role: 'Team Lead',
-                tecnologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'Responsive'],
-                description: 'Filmoteca hecha con "The Movie Database API". Proyecto académico grupal de una semana.',
-                link: 'https://santirock.github.io/goit-javaband-jsproject/',
-                tags: 'javascript',
-                year: 'Abril 2023',
-            },
-        
-            {
-                name:'IceCream',
-                id: 12,
-                role: 'Scrum Master',
-                tecnologies: ['HTML', 'CSS', 'Responsive'],
-                description: 'Página de la marca IceCream. Proyecto académico grupal de una semana.',
-                link: 'https://santirock.github.io/goit-starteam-backup/',
-                tags: 'html',
-                year: 'Diciembre 2022',
-            },
-        
             { 
                 name:'React',
                 id: 13,
