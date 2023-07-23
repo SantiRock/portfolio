@@ -70,7 +70,7 @@ p {
 
 .headd {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -114,8 +114,8 @@ section { margin-bottom: 20px; }
 
 .btn:hover{
    transform: translateY(-2px);
-   background-color: rgb(198, 231, 198);
-   color: rgb(140, 162, 227);
+   background-color: rgb(128, 164, 230);
+   color: rgb(212, 255, 219);
 }
 
 .btn1 {
@@ -134,7 +134,11 @@ section { margin-bottom: 20px; }
 }
  
 .email{
-  display: inline;
+  display: inline;  
+}
+
+.footer {
+  margin-bottom: 15px;
 }
 
 
@@ -211,7 +215,7 @@ section { margin-bottom: 20px; }
   .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content:flex-start;
     gap: 24px;
   }
    .project{

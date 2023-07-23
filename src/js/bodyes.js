@@ -27,17 +27,27 @@ const EsApp = ({arr}) => {
 
   const jsBtn = (event) => {
     event.preventDefault();
-    setShowAll(proj.filter(project => project.tags === 'javascript'))
+    setShowAll(proj.filter(project => project.tags.includes('javascript')))
   }
 
   const reactBtn = (event) => {
     event.preventDefault();
-    setShowAll(proj.filter(project => project.tags === 'react'))
+    setShowAll(proj.filter(project => project.tags.includes('react')))
   }
 
   const htmlBtn = (event) => {
     event.preventDefault();
-    setShowAll(proj.filter(project => project.tags === 'html'))
+    setShowAll(proj.filter(project => project.tags.includes('html')))
+  }
+
+  const ppBtn = (event) => {
+    event.preventDefault();
+    setShowAll(proj.filter(project => project.tags.includes('pp')))
+  }
+
+  const apiBtn = (event) => {
+    event.preventDefault();
+    setShowAll(proj.filter(project => project.tags.includes('api')))
   }
 
   const allBtn = (event) => {
@@ -53,6 +63,8 @@ const EsApp = ({arr}) => {
         <Btn text='React' handler={reactBtn}/>
         <Btn text='JavaScript' handler={jsBtn}/>
         <Btn text='HTML & CSS' handler={htmlBtn}/>
+        <Btn text='Pixel Perfect' handler={ppBtn}/>
+        <Btn text='API' handler={apiBtn}/>
         <Btn text={arr[0].all} handler={allBtn}/>
       </div>
       <div className='projects'>
