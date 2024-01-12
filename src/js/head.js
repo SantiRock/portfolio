@@ -33,7 +33,6 @@ const Head1 = ( {arr, handlerEs, handlerEn} ) => {
             </div>
             
             <div className="header">
-                <Image />
                 <Titlee title={arr.title} subtitle={arr.subTitle} />
              
             </div>
@@ -46,7 +45,6 @@ const Head2 = ({arr, handlerEs, handlerEn}) => {
     return (
         <>           
             <div className="header">
-                <Image />
                 <div className='headc'>
                     <div className='headd'>
                         <h1>{arr.title}</h1>
