@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "solid-js": "^1.7.6"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
