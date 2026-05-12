@@ -2,9 +2,9 @@ export const spacesapi = {
     myrys: {
         title: "Mix'Art Myrys",
         fecha: "2017-2019",
-        lugar: "Toulouse, Francia",
-        concepto: "Asociación de asociaciones artísticas y artistas independientes, una de las más importantes de la ciudad, cuenta con alrededor de unos 200 asociados y múltiples colaboradores. Vigente desde 1995, tenía como sede una antigua bodega industrial en la que tenían diversos equipamientos culturales. Actualmente se encuentran en conflicto con la administración local, la cual busca recuperar el sitio para otros proyectos.",
-        misiones: "Participación en la organización y logística de eventos, así como apoyo artístico y técnico en video-mapping, VJing, instalaciones interactivas, iluminación y colaboración con otros artistas y asociaciones de la asociación.",
+        lugar: "Toulouse, França",
+        concepto: "Associação de associações artísticas e artistas independentes, uma das mais importantes da cidade, com cerca de 200 associados e múltiplos colaboradores. Ativa desde 1995, tinha como sede um antigo galpão industrial onde funcionavam diversos equipamentos culturais. Atualmente está em conflito com a administração local, que busca retomar o espaço para outros projetos.",
+        misiones: "Participação na organização e logística de eventos, além de apoio artístico e técnico em video-mapping, VJing, instalações interativas, iluminação e colaboração com outros artistas e associações da associação.",
         enlaces: [
             {
                 id: "quevivemyrys",
@@ -53,9 +53,9 @@ export const spacesapi = {
     leproyectarium : {
         title: "Le Proyectarium",
         fecha: "2017-2019",
-        lugar: "Toulouse, Francia",
-        concepto: "Asociación artística enfocada en el creación de video y artes digitales. Sus líneas de exploración son el VJing, el video-mapping, el diseño de iluminación, el diseño escénico, las instalaciones audiovisuales interactivas y la impresión 3D.",
-        misiones: "Apoyo en VJing, video-mapping, programación Arduino para instalaciones interactivas, iluminación, logística de eventos y montaje de piezas y/o artefactos audiovisuales.",
+        lugar: "Toulouse, França",
+        concepto: "Associação artística focada na criação de vídeo e artes digitais. Suas linhas de exploração são o VJing, o video-mapping, o design de iluminação, o design cênico, as instalações audiovisuais interativas e a impressão 3D.",
+        misiones: "Apoio em VJing, video-mapping, programação Arduino para instalações interativas, iluminação, logística de eventos e montagem de peças e/ou artefatos audiovisuais.",
         enlaces: [
             {
                 id: "leproyectarium",
@@ -158,9 +158,9 @@ export const spacesapi = {
     spektrum : {
         title: "Spektrum: art, science & community",
         fecha: "2018",
-        lugar: "Berlin, Alemania",
-        concepto: "Fue un espacio de convergencia para comunidades culturales y grupos transdisciplinarios que surgieron y operaron dentro y fuera de Berlín entre agosto de 2014 y marzo de 2019. El espacio cobijaba encuentros de grupos con intereses afines alrededor de diversas confluencias entre arte, ciencia y tecnología, así como una nutrida programación asociada a estas temáticas, como performances sonoros, audiovisuales, conciertos, proyecciones, talleres y exposiciones.",
-        misiones: "Anfitrión y apoyo ténico para artistas y colectivos.",
+        lugar: "Berlin, Alemanha",
+        concepto: "Foi um espaço de convergência para comunidades culturais e grupos transdisciplinares que surgiram e atuaram dentro e fora de Berlim entre agosto de 2014 e março de 2019. O espaço abrigava encontros de grupos com interesses afins em torno de diversas confluências entre arte, ciência e tecnologia, além de uma rica programação associada a essas temáticas, como performances sonoras, audiovisuais, shows, projeções, oficinas e exposições.",
+        misiones: "Anfitrião e apoio técnico para artistas e coletivos.",
         enlaces: [
             {
                 id: "spektrumofcial",
@@ -228,9 +228,9 @@ export const spacesapi = {
     guyabaocolective : {
         title: "Guayabo Colectivo",
         fecha: "2017-2020",
-        lugar: "Toulouse, Francia",
-        concepto: "La asociación se concibe como un puente cultural entre Latino-América y Europa, en particular en Francia y Toulouse. Organiza y participa en eventos culturales, como conciertos, exposiciones o festivales, con impronta latino-americana y/o colombiana, así mismo lleva proyectos como el festival de artes urbanas Latino Graff y el fanzine Disparates, hace promoción de artistas latino-americanos y genera espacios de encuentro cultural entre América Latina y Europa.",
-        misiones: "Apoyo en organisación y logística de eventos, así como artista VJ y/o de video.",
+        lugar: "Toulouse, França",
+        concepto: "A associação se concebe como uma ponte cultural entre a América Latina e a Europa, em particular com a França e Toulouse. Organiza e participa de eventos culturais — shows, exposições, festivais — com identidade latino-americana e/ou colombiana. Também desenvolve projetos como o festival de artes urbanas Latino Graff e o fanzine Disparates, promove artistas latino-americanos e cria espaços de encontro cultural entre a América Latina e a Europa.",
+        misiones: "Apoio na organização e logística de eventos, assim como artista VJ e/ou de vídeo.",
         enlaces: [
             {
                 id: "guyabocolectivooficual",
@@ -272,9 +272,9 @@ export const spacesapi = {
     gairacafe : {
         title: "Gaira Café y Cumbia House",
         fecha: "2014-2016",
-        lugar: "Bogotá, colombia",
-        concepto: "Establecimiento de los hermanos Carlos y Guillermo Vives, restaurante y auditorio con banda en vivo, donde se realizan espectáculos musicales todos los días de la semana.",
-        misiones: "VJ Master, manejo del sistema de video del lugar, videowall y pantallas. Concepción artìstica y apoyo técnico en video.",
+        lugar: "Bogotá, Colômbia",
+        concepto: "Estabelecimento dos irmãos Carlos e Guillermo Vives, restaurante e auditório com banda ao vivo, onde acontecem espetáculos musicais todos os dias da semana.",
+        misiones: "VJ residente, operação do sistema de vídeo do espaço, videowall e telas. Concepção artística e apoio técnico em vídeo.",
         enlaces: [
             {
                 id: "cumbiahouseoficial",
@@ -390,9 +390,9 @@ export const spacesapi = {
     larddx : {
         title: "La Redada Miscelánea Cultural",
         fecha: "2011-2016",
-        lugar: "Bogotá, Colombia",
-        concepto: "Casa Cultural, espacio de convergencia para diversos colectivos e individuos entrelazados en la contra-cultura. Una mezcla de artistxs, humanistxs, ingenierxs, panaderxs, movimientos sociales y una diversidad de personas, creando un entramado social unido por prácticas de resistencia. La Redada es un espacio independiente para hacerlo real y hacerlo en parche.",
-        misiones: "Desde admninistrar el espacio, a organización y logística de eventos, técnica y montaje de sonido y video, afitrión de artista y colectivos y/o apoyo a proyectos de compañeros. Estuve a cargo de un laboratorio de creación músical y de proyectos como<span style='color: rgb(142, 220, 196); font-style:italic;'> el Comité Aural </span>(dj sets), <span style='color: rgb(142, 220, 196); font-style:italic;'>La RddxLab </span>(encuentros de arte y tecnología) y/o <span style='color: rgb(142, 220, 196); font-style:italic;'>La RddxRec</span> (organización y registro de conciertos, djs sets y performances sonoros).",
+        lugar: "Bogotá, Colômbia",
+        concepto: "Casa Cultural, espaço de convergência para diversos coletivos e indivíduos entrelaçados na contracultura. Uma mistura de artistxs, humanistxs, engenheirxs, padeirxs, movimentos sociais e uma diversidade de pessoas, criando uma trama social unida por práticas de resistência. La Redada é um espaço independente para torná-lo real e fazê-lo em parceria.",
+        misiones: "Desde administrar o espaço até a organização e logística de eventos, técnica e montagem de som e vídeo, anfitrião de artistas e coletivos e/ou apoio a projetos de colegas. Estive à frente de um laboratório de criação musical e de projetos como <span style='color: rgb(142, 220, 196); font-style:italic;'>el Comité Aural</span> (DJ sets), <span style='color: rgb(142, 220, 196); font-style:italic;'>La RddxLab</span> (encontros de arte e tecnologia) e/ou <span style='color: rgb(142, 220, 196); font-style:italic;'>La RddxRec</span> (organização e registro de shows, DJ sets e performances sonoras).",
         enlaces: [
             {
                 id: "laredadafacebook",
@@ -478,9 +478,9 @@ export const spacesapi = {
     quince16 : {
         title: "Quince16",
         fecha: "2009-2011",
-        lugar: "Bogotá, Colombia",
-        concepto: "El proyecto de Quince16 se creo en 2009 por la necesidad de tener un espacio propio en el cual poder experimentar en tanto estudiantes de diversas facultades de artes de la ciudad. En el montamos distintos eventos, exposiciones, proyecciones, conciertos, talleres, charlas, sets para cortometrajes, entre otros.",
-        misiones: "Administrar el espacio, organización y logística de eventos artísticos y culturales, laboratorios de creación, anfitrión de artistas y colectivos.",
+        lugar: "Bogotá, Colômbia",
+        concepto: "O projeto Quince16 foi criado em 2009 pela necessidade de ter um espaço próprio onde pudéssemos experimentar como estudantes de diversas faculdades de artes da cidade. Nele realizamos diferentes eventos, exposições, projeções, shows, oficinas, palestras, sets para curtas-metragens, entre outros.",
+        misiones: "Administrar o espaço, organização e logística de eventos artísticos e culturais, laboratórios de criação, anfitrião de artistas e coletivos.",
         enlaces: [
             {
                 id: "quince16blog",
@@ -559,9 +559,9 @@ export const spacesapi = {
     teatrolaconcha: {
         title: "Teatro la Concha",
         fecha: "2023",
-        lugar: "Cali, Colombia",
+        lugar: "Cali, Colômbia",
         concepto: "Sala de teatro",
-        misiones: "Técnica de iluminación",
+        misiones: "Técnica de iluminação",
         enlaces: [
             {
                 id: "teatrolaconcha",

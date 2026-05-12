@@ -1,27 +1,27 @@
 export const webapi = {
     aigallery : {
-        title: 'AI Gallery',
+        title: 'Gallery',
         fecha: '2025',
-        concepto: 'Galeria de imágenes que he creado con ayuda de la herramiento de la inteligencia artificial como parte de mi practica y exploración artisitica visual y tecnologica.',
+        concepto: 'Galeria de imagens próprias',
         stack: 'js vanilla',
         enlaces: [
             {
                 id: 'aigallery',
                 enlace: 'https://santirock.github.io/ai_gallery/',
-                text: 'Sitio Web: Galeria IA'
+                text: 'Site Web: Gallery'
             },
         ],
     },
     sqpweb : {
         title: 'FrontEnd Studio',
         fecha: '2024',
-        concepto: 'Sitio personal para ofrecer servicios de desarrollo Forntend, creación de páginas web.',
+        concepto: 'Site pessoal para oferecer serviços de desenvolvimento Frontend, criação de páginas web.',
         stack: 'Vue.js',
         enlaces: [
             {
                 id: 'frontendstudio',
                 enlace: 'https://sqpweb.netlify.app/',
-                text: 'Sitio Web: FrontEnd Studio'
+                text: 'Site Web: FrontEnd Studio'
             },
         ],
     },
@@ -29,13 +29,13 @@ export const webapi = {
     filmoteka : {
         title: 'Filmoteka',
         fecha: '2023',
-        concepto: 'Pagina para buscar información sobre películas y ver tendencias por medio de The Movie Database API',
+        concepto: 'Página para buscar informações sobre filmes e ver tendências por meio da The Movie Database API.',
         stack: 'Javascript Vanilla, TMDB API',
         enlaces: [
             {
                 id: 'filmotekaksjsjd',
                 enlace: 'https://santirock.github.io/Filmoteka/',
-                text: 'Sitio Web: Filmoteka'
+                text: 'Site Web: Filmoteka'
             },
             {
                 id: 'themodoodvvefapi',
@@ -48,13 +48,13 @@ export const webapi = {
     kinopoisk : {
         title: 'Kinopoisk',
         fecha: '2023',
-        concepto: 'Pagina para buscar información sobre películas y ver tendencias por medio de The Movie Database API, con un formato diferente al de la Filmoteka y desarrollada con React.',
+        concepto: 'Página para buscar informações sobre filmes e ver tendências por meio da The Movie Database API, com um formato diferente ao da Filmoteka e desenvolvida com React.',
         stack: 'React, TMDB API',
         enlaces: [
             {
                 id: 'kinopopikdhsda',
                 enlace: 'https://santirock.github.io/Kinopoisk/',
-                text: 'Sitio Web: Kinopoisk'
+                text: 'Site Web: Kinopoisk'
             },
             {
                 id: 'themodoodvvefapi',
@@ -67,13 +67,13 @@ export const webapi = {
     swapi : {
         title: 'SWAPI Challenge',
         fecha: '2023',
-        concepto: 'Desafío de crear una página lo más versátil posible a partir de la SWAPI, The Star Wars API',
+        concepto: 'Desafio de criar uma página o mais versátil possível a partir da SWAPI, The Star Wars API.',
         stack: 'Javascript Vanilla, SWAPI The Star Wars API',
         enlaces: [
             {
                 id: 'swapisischalsjsnds',
                 enlace: 'https://santirock.github.io/swapi-challenge/',
-                text: 'Sitio Web: SWAPI Challenge'
+                text: 'Site Web: SWAPI Challenge'
             },
             {
                 id: 'swapisoficial',
@@ -86,13 +86,13 @@ export const webapi = {
     icecream : {
         title: 'IceCream',
         fecha: '2022',
-        concepto: 'Página para la marca ficticia IceCream',
+        concepto: 'Página para a loja fictícia IceCream',
         stack: 'HTML, CSS, Javascript',
         enlaces: [
             {
                 id: 'icecreamsjsj',
                 enlace: 'https://santirock.github.io/IceCream/',
-                text: 'Sitio Web: IceCream'
+                text: 'Site Web: IceCream'
             }
         ],
     },
@@ -100,13 +100,13 @@ export const webapi = {
     webstudio : {
         title: 'WebStudio',
         fecha: '2022',
-        concepto: 'Página para la compañia ficticia WebStudio',
+        concepto: 'Página para a empresa fictícia WebStudio',
         stack: 'HTML, CSS',
         enlaces: [
             {
                 id: 'webstudioxnn',
                 enlace: 'https://santirock.github.io/Web_Studio/',
-                text: 'Sitio Web: WebSudio'
+                text: 'Site Web: WebSudio'
             }
         ],
     },
@@ -114,13 +114,13 @@ export const webapi = {
     zhizhwa : {
         title: 'Zhizhwa',
         fecha: '2025',
-        concepto: 'Inspirada en el universo VJ (mezcla de video en tiempo real), Zhizhwa es una interfaz web que permite al visitante modificar en tiempo real una animación generada por código, dando lugar a infinitas variaciones de una forma que se dibuja y desdibuja continuamente.',
+        concepto: 'Inspirada no universo VJ (mix de vídeo em tempo real), Zhizhwa é uma interface web que permite ao visitante modificar em tempo real uma animação gerada por código, dando lugar a infinitas variações de uma forma que se desenha e se apaga continuamente.',
         stack: 'Javascript Vanilla, Threejs, glsl shaders',
         enlaces: [
             {
                 id: 'zhizhwaa',
                 enlace: 'https://santirock.github.io/zhizhwa/',
-                text: 'Sitio Web: Zhizhwa'
+                text: 'Site Web: Zhizhwa'
             }
         ],
     },
@@ -128,13 +128,13 @@ export const webapi = {
     petronico : {
         title: 'Petronico',
         fecha: '2024',
-        concepto: 'Pagina para promocionar el evento Petronio Sessions',
+        concepto: 'Página para promover o evento Petronio Sessions',
         stack: 'Javascript Vanilla',
         enlaces: [
             {
                 id: 'petronicoo',
                 enlace: 'https://santirock.github.io/petronico/',
-                text: 'Sitio Web: Petronico'
+                text: 'Site Web: Petronico'
             },
         ],
     },
@@ -142,13 +142,13 @@ export const webapi = {
     skull: {
         title: 'Skull Test',
         fecha: '2025',
-        concepto: 'Pagina de test para probar imagen 3D con la libreria Threejs. Se puede demorar un poco en cargar.',
+        concepto: 'Página de teste para experimentar imagem 3D com a biblioteca Three.js. Pode demorar um pouco para carregar.',
         stack: 'Javascript Vanilla, Threejs',
         enlaces: [
             {
                 id: 'skulltestt',
                 enlace: 'https://santirock.github.io/test-skull/',
-                text: 'Sitio Web: Skull Test'
+                text: 'Site Web: Skull Test'
             },
         ],
     },
@@ -156,13 +156,13 @@ export const webapi = {
     webgldm : {
         title: 'WebGL Drawing Modes',
         fecha: '2024',
-        concepto: 'Pagina para ilustrar los diferentes modos de dibujo de los vector shaders usando la API WebGL. Hace parte de mi investigación del lenguaje glsl en el contexto web. Si no carga bien la primera bien, por favor recargar u oprimir uno de los botones de los diferentes ejemplos.',
+        concepto: 'Página para ilustrar os diferentes modos de desenho dos vertex shaders usando a API WebGL. Faz parte da minha pesquisa da linguagem GLSL no contexto web. Se não carregar bem da primeira vez, por favor recarregue ou clique em um dos botões dos diferentes exemplos.',
         stack: 'Javascript Vanilla, WebGL, glsl shaders',
         enlaces: [
             {
                 id: 'webgldmm',
                 enlace: 'https://santirock.github.io/webgl_drawing_modes/',
-                text: 'Sitio Web: WebGL Drawing Modes'
+                text: 'Site Web: WebGL Drawing Modes'
             },
         ],
     },

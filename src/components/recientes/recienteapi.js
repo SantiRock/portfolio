@@ -26,7 +26,7 @@ export const recentapi = {
             },
         ]
     },
-    ai : {
+    chocoesp : {
         title: "Chocolate Espeso",
         fecha: "2026",
         concepto: "Desenvolvimento de ferramentas para gestão de contabilidade e finanças. Em andamento.",
@@ -53,6 +53,18 @@ export const recentapi = {
                 enlace: 'https://www.instagram.com/astronativos/',
                 text: 'Instagram'
             }
+        ],
+    },
+    gallery : {
+        title: 'Gallery',
+        fecha: '2025',
+        concepto: 'Galeria de imagens próprias',
+        enlaces: [
+            {
+                id: 'aigallery',
+                enlace: 'https://santirock.github.io/ai_gallery/',
+                text: 'Site Web: Gallery'
+            },
         ],
     },
 }

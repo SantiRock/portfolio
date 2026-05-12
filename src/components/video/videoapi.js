@@ -1,54 +1,19 @@
 export const videosApi = {
-  a1v8: {
-    id: 'a1v8_',
-    title: 'AV8',
-    fecha: '2025',
-    concepto: 'AV8 es un proyecto artístico que investiga la imagen interactiva en tiempo real mediante programación gráfica. Nos interesa crear experiencias estéticas desde el código, explorando el potencial expresivo de esta tecnología como lenguaje visual.',
-    reconocimientos: 'Proyecto participante de la exposiciòn colectiva RGB Realidades Generativas Brillantes, muestra AV sobre Vjismo en Colombia en Mayo-Junio 2025 en la Cinemateca de Bogotá.',
-    enlaces: [
-        {
-            id: 'a1v8web',
-            enlace: 'https://av8.onrender.com/',
-            text: 'WebSite'
-        },
-        {
-            id: 'insta',
-            enlace: 'https://www.instagram.com/av8visual/',
-            text: 'Instagram'
-        },
-        {
-            id: 'rgb',
-            enlace: 'https://www.instagram.com/rgbexpo2025/',
-            text: 'RGB Realidades Generativas Colectivas'
-        },
-    ],
-    images: [
-        {
-            id: 1,
-            srcset: '',
-            src: '/images/video/a1v8/av1@2x.jpg',
-            image: '/images/video/a1v8/av1.jpg',
-            alt: 'rgb',
-            credit: ''
-        },
-    ]
-  },
-
   sucursalfest: {
     id: 'sucursal_fest',
-    title: 'Astronativo en el Sucursal Fest',
+    title: 'Astronativo no Sucursal Fest',
     fecha: '2025',
-    lugar: 'Cali, Colombia',
-    cargo: 'Artista de Video',
+    lugar: 'Cali, Colômbia',
+    cargo: 'Artista de Vídeo',
     equipo: [
         {
             id: 'astro',
-            cargo: 'Proyecto Musical',
+            cargo: 'Projeto Musical',
             nombre: 'Astronativo'
         },
         {
             id: 'blad',
-            cargo: 'Productor Musical',
+            cargo: 'Produtor Musical',
             nombre: 'Wladimir Garcia'
         },
         {
@@ -58,15 +23,15 @@ export const videosApi = {
         },
                 {
             id: 'batucada',
-            cargo: 'Invitados',
+            cargo: 'Convidado',
             nombre: 'Leonardo Pastrana Cortés'
         },
     ],
-    concepto: 'Presentación del proyecto Astonativo en el marco del festival de la diversidad Sucursal Fest 2025 de Cali, Colombia. En esta ocación utilicé AI como parte del proceso de creación de imagen y creé mi propia interfaz personalisada sobre Touch Designer.',
-    misiones: 'Performance de video, VJing, mezcla de video en vivo.',
+    concepto: 'Apresentação do projeto Astronativo no âmbito do festival da diversidade Sucursal Fest 2025, em Cali, Colômbia. Nessa ocasião utilizei IA como parte do processo de criação de imagem e criei minha própria interface personalizada em Touch Designer.',
+    misiones: 'Performance de vídeo, VJing, mix de vídeo ao vivo.',
     stack: 'TouchDesigner, AI.',
     duración: '30min',
-    aforo: 'unas 2000 personas, publico flotante',
+    aforo: 'Cerca de 2000 pessoas, público flutuante.Cerca de 2000 pessoas, público flutuante.',
     apoyo: 'Secretaria de Cultura de Cali, Alcaldía de Cali',
     enlaces: [
         {
@@ -150,33 +115,33 @@ export const videosApi = {
 
   biodiversidad: {
     id: 'biodiversidad',
-    title: 'Astronativo en La Semana de la Biodiversidad',
+    title: 'Astronativo na Semana da Biodiversidade',
     fecha: '2025',
-    lugar: 'Cali, Colombia',
-    cargo: 'Artista de Video',
+    lugar: 'Cali, Colômbia',
+    cargo: 'Artista de Vídeo',
     equipo: [
         {
             id: 'astro',
-            cargo: 'Proyecto Musical',
+            cargo: 'Projeto Musical',
             nombre: 'Astronativo'
         },
         {
             id: 'blad',
-            cargo: 'Productor Musical',
+            cargo: 'Produtor Musical',
             nombre: 'Wladimir Garcia'
         },
         {
             id: 'orquesta',
-            cargo: 'Invitados',
+            cargo: 'Convidados',
             nombre: 'Orquesta Universidad Autonoma de Occidente'
         },
     ],
-    concepto: 'Presentación del proyecto Astonativo en el marco de la programación artística de la Semana de la Biodiversidad de Cali 2005. En esta ocación utilicé AI como parte del proceso de creación de imagen y creé mi propia interfaz personalisada sobre Touch Designer.',
-    misiones: 'Performance de video, VJing, mezcla de video en vivo.',
+    concepto: 'Apresentação do projeto Astronativo no âmbito da programação artística da Semana da Biodiversidade de Cali 2025, Colômbia. Nessa ocasião utilizei IA como parte do processo de criação de imagem e criei minha própria interface personalizada em Touch Designer.',
+    misiones: 'Performance de vídeo, VJing, mix de vídeo ao vivo.',
     stack: 'TouchDesigner, AI.',
     duración: '30min',
-    aforo: 'unas 500 personas, publico flotante',
-    apoyo: 'Alcaldía de Santiago de Cali',
+    aforo: 'Cerca de 2000 pessoas, público flutuante.',
+    apoyo: 'Prefeitura de Santiago de Cali',
     enlaces: [
         {
             id: 'astroo',
@@ -214,19 +179,19 @@ export const videosApi = {
 
   cop16: {
     id: 'cop16',
-    title: 'Astronativo en la COP16',
+    title: 'Astronativo na COP16',
     fecha: '2024',
-    lugar: 'Plaza Cayzedo, Cali, Colombia',
+    lugar: 'Plaza Cayzedo, Cali, Colômbia',
     cargo: '',
     equipo: [
         {
             id: 'astroo',
-            cargo: 'Proyecto Musical',
+            cargo: 'Projeto Músical',
             nombre: 'Astronativo'
         },
         {
             id: 'blad',
-            cargo: 'Productor Musical',
+            cargo: 'Produtor Músical',
             nombre: 'Wladimir Garcia'
         },
         {
@@ -245,11 +210,11 @@ export const videosApi = {
             nombre: "Rafael Fernandez"
         },
     ],
-    concepto: 'Presentación del proyecto Astronativo en el marco de programación artísitica de la COP16',
-    misiones: 'Performance de video, VJing, mezcla de video en vivo.',
+    concepto: 'Apresentação do projeto Astronativo no âmbito da programação artística da COP16.',
+    misiones: 'Performance de vídeo, VJing, mix de vídeo ao vivo.',
     stack: 'Resolume',
     duración: '45 min',
-    aforo: '2000 personas, publico flotante',
+    aforo: 'Cerca de 2000 pessoas, público flutuante.',
     apoyo: "Ministerio de Ambiente de Colombia",
     enlaces: [
         {
@@ -293,14 +258,14 @@ export const videosApi = {
 
   la_magdalena: {
     id: 'la magadalena',
-    title: "Río/radio: Correspondencia anfibia",
-    fecha: "11 de Noviembre 2021",
-    lugar: "Plataform Caníbal, Barranquilla, Colombia",
-    cargo: "Artista de Video",
+    title: "Rio/rádio: Correspondência anfíbia",
+    fecha: "11 de novembro de 2021",
+    lugar: "Plataform Caníbal, Barranquilla, Colômbia",
+    cargo: "Artista de Vídeo",
     equipo: [
       {
         id: "laura",
-        cargo: "Un proyecto de",
+        cargo: "Um projeto de",
         nombre: "Laura Wiesner",
       },
       {
@@ -310,17 +275,17 @@ export const videosApi = {
       },
       {
         id: "sqp",
-        cargo: "Visuales",
+        cargo: "Visuais",
         nombre: "Santiago Quintero",
       },
       {
         id: "sandrix",
-        cargo: "Producción",
+        cargo: "Produção",
         nombre: "Sandra Martínez",
       },
       {
         id: "sebas",
-        cargo: "Producción",
+        cargo: "Produção",
         nombre: "Sebastián Cardona",
       },
       {
@@ -330,13 +295,13 @@ export const videosApi = {
       },
       {
         id: "pc",
-        cargo: "Agradecimientos",
-        nombre: "Equipo Plataforma Caníbal",
+        cargo: "Agradecimentos",
+        nombre: "Equipe Plataforma Caníbal",
       },
     ],
     concepto:
-      'Performance audiovisual dentro del marco del proyecto de investigación/creación "Río/radio: Correspondencia anfibia" de Laura Wiesner acerca del río Magdalena. Beca residencias nacionales de Idartes.',
-    misiones: "Performance Visual, mezlca de video en vivo.",
+      'Performance audiovisual no âmbito do projeto de pesquisa/criação "Río/radio: Correspondencia anfibia" de Laura Wiesner sobre o rio Magdalena. Bolsa de residências nacionais do Idartes.',
+    misiones: "Performance de vídeo, VJing, mix de vídeo ao vivo.",
     stack: 'Resolume',
     duracion: "45min",
     aforo: "50 personas",
@@ -345,12 +310,12 @@ export const videosApi = {
       {
         id: "pc",
         enlace: "http://plataformacanibal.org/portfolio/laura-wiesner/",
-        text: "Reseña por Plataforma Caníbal",
+        text: "Resenha por Plataforma Caníbal",
       },
       {
         id: "inst",
         enlace: "https://www.instagram.com/reel/CWKGsJ_BuXc/",
-        text: "Transmisión por Instagram",
+        text: "Transmissão pelo Instagram",
       },
     ],
     images: [
@@ -410,12 +375,12 @@ export const videosApi = {
     id: 'pink_paradize',
     title: 'Pink Paradize Festival',
     fecha: '6 de abril de 2019',
-    lugar: "Mix'Art Myrys, Toulouse, Francia",
+    lugar: "Mix'Art Myrys, Toulouse, França",
     cargo: '',
     equipo: [
         {
             id: 'pp',
-            cargo: 'Producción',
+            cargo: 'Produção',
             nombre: 'Les Productions du Possible'
         },
         {
@@ -435,15 +400,15 @@ export const videosApi = {
         },
         {
             id: 'mas',
-            cargo: 'Agradecimientos',
+            cargo: 'Agradecimentos',
             nombre: "Equipo Mix'Art, Le Proyectarium, Didier Bonnemaison"
         },
     ],
-    concepto: 'Festival de música electrónica. Para esta ocación trabajé con patches audio-reactivos creados en Quartz Composer, 0 video, 0 imágenes pre-renderisadas, 100% programación. Bajo el lema "vez lo que escuchas, sin sonido no hay imagén".',
-    misiones: 'Performance de video, VJing, mezcla de video en vivo. Montaje y desmontaje de equipos de video.',
+    concepto: 'Festival de música eletrônica. Para essa ocasião trabalhei com patches audio-reativos criados em Quartz Composer, 0 vídeo, 0 imagens pré-renderizadas, 100% programação. Sob o lema "você vê o que escuta, sem som não há imagem.".',
+    misiones: 'Performance de vídeo, VJing, mix de vídeo ao vivo. Montagem e desmontagem de equipamentos de vídeo.',
     stack: 'Resolume, Quartz Composer',
     duración: '6 horas',
-    aforo: '2000 personas, publico flotante',
+    aforo: 'Cerca de 2000 pessoas, público flutuante.',
     apoyo: "Mix'Art Myrys, Le Proyectarium, 5 minutes, Les Productions du Possible",
     enlaces: [
         {
@@ -483,13 +448,13 @@ export const videosApi = {
   der_kirchgarten : {
     id: 'derkirchgarten',
     title: 'Der Kirchgarten',
-    fecha: 'Del 18 al 20 de Octubre 2018',
-    lugar: 'Kiefernstraße, Düsseldorf, Alemania',
+    fecha: 'De 18 a 20 de outubro de 2018',
+    lugar: 'Kiefernstraße, Düsseldorf, Alemanha',
     cargo: 'Artista de Video-Mapping',
     equipo: [
         {
             id: 'marlin',
-            cargo: 'Directora',
+            cargo: 'Diretora',
             nombre: 'Marlin de Haan'
         },
         {
@@ -499,7 +464,7 @@ export const videosApi = {
         },
         {
             id: 'jan',
-            cargo: 'Escenógrafo',
+            cargo: 'Cenógrafo',
             nombre: 'Jan Patrick Brandt'
         },
         {
@@ -509,12 +474,12 @@ export const videosApi = {
         },
         {
             id: 'io',
-            cargo: 'Asistente Video-Mapping',
+            cargo: 'Assistente Video-Mapping',
             nombre: 'Santiago Quintero'
         },
         {
             id: 'laura',
-            cargo: 'Asistente de producción',
+            cargo: 'Assistente de produção',
             nombre: 'Laura Biewald'
         },
         {
@@ -524,41 +489,41 @@ export const videosApi = {
         },
         {
             id: 'sophie',
-            cargo: 'Actriz',
+            cargo: 'Atriz',
             nombre: 'Sophie Killer'
         },
         {
             id: 'saskia',
-            cargo: 'Actor',
+            cargo: 'Ator',
             nombre: 'Saskia Rudat'
         },
         {
             id: 'ivo',
-            cargo: 'Actor',
+            cargo: 'Ator',
             nombre: 'Ivo Schneider'
         },
         {
             id: 'tec',
-            cargo: 'Soporte técnico',
+            cargo: 'Suporte técnico',
             nombre: 'Malte Lehmann, Friederike Haug'
         },
         {
             id: 'coprod',
-            cargo: 'Co-Producción',
+            cargo: 'Co-Produção',
             nombre: 'FTT-Dûsseldorf '
         },
         {
             id: 'agrad',
             cargo: 'Agradecimentos',
-            nombre: 'Los residentes de la calle Kiefernstraße'
+            nombre: 'Os moradores da rua Kiefernstraße'
         },
     ],
-    concepto: 'Obra de teatro comtemporàneo basada en "El jardin de los cerezos" de Anton Chejov, como forma de denunciar el riego de gentrificación del barrio tradicionalmente "alternativo" de Dûsseldorf. Lo obra hace un recorrido por el barrio, en exteriores e interiores, y se realizó con ayuda de la comunidad.',
-    misiones: 'Montaje de video-mapping (video y audio), asistencia en creación y mezcla en vivo, estructura de línea de tiempo y setteo del programa de proyección (resolume). Producción de material visual, animaciones.',
+    concepto: 'Peça de teatro contemporâneo baseada em "O jardim das cerejeiras" de Anton Tchékhov, como forma de denunciar o risco de gentrificação do bairro tradicionalmente "alternativo" de Düsseldorf. A peça percorre o bairro, em espaços externos e internos, e foi realizada com o apoio da comunidade.',
+    misiones: 'Montagem de video-mapping (vídeo e áudio), assistência na criação e mix ao vivo, estrutura de linha do tempo e configuração do programa de projeção (Resolume). Produção de material visual, animações.',
     stack: 'Resolume, Suite Adobe',
     duración: '50 min',
-    aforo: '50 personas por función / 5 funciones en total',
-    reconocimientos: 'Video-Mapping nominado en los Video Mapping Awards del European Mapping Center (Lille/Fr) de 2019',
+    aforo: '50 pessoas por sessão / 5 sessões no total',
+    reconocimientos: 'Video-Mapping indicado ao prêmio Video Mapping Awards do European Mapping Center (Lille/Fr) de 2019',
     apoyo: 'K4 Kulturbureau, Bauwagenplatz Kiefernstraße, Kindercub, Kulturamt der Landeshauptstadt, Ministerium für Kultur und Wissenschaft NRW, Fonds Darstelllende Kûnste e.V, Stiftung van Meeteren, zakk - Zentrum für Aktion, Kultur und Kommunikation',
     enlaces: [
         {
@@ -569,17 +534,17 @@ export const videosApi = {
         {
             id: 'parisa',
             enlace: 'https://parisakarimi.com/portfolio/kirschgarten/',
-            text: 'Reseña por Parisa Karimi (la artista de video)'
+            text: 'Resenha por Parisa Karimi (a artista de vídeo)'
         },
         {
             id: 'marlin',
             enlace: 'https://marlindehaan.de/der-kirschgarten/',
-            text: 'Reseña por Marlin de Haan (la directora)'
+            text: 'Resenha por Marlin de Haan (la diretora)'
         },
         {
             id: 'vma',
             enlace: 'https://www.lightzoomlumiere.fr/videos/3-coups-de-coeur-aux-video-mapping-awards-2019/?fbclid=IwAR2L9I0yyu2CxOJFToxRnhfr-ivG-SJwyhGIRSm8pHBJ3vBB5Mlh3rcowe4',
-            text: 'Reseña de Light Zoom Lumière'
+            text: 'Resenha por Light Zoom Lumière'
         },
     ],
     video : '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/310680608?h=f37673b8b3&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -647,18 +612,18 @@ export const videosApi = {
   die_originale : {
     id: 'dieoriginale',
     title: 'Die Originale: Circus',
-    fecha: 'Del 29 de marzo al 8 de abirl 2018',
-    lugar: 'Berliner Festpiele, Berlin, Alemania',
-    cargo: 'Artista de Video',
+    fecha: 'De 29 de março a 8 de abril de 2018',
+    lugar: 'Berliner Festpiele, Berlin, Alemanha',
+    cargo: 'Artista de Vídeo',
     equipo: [
         {
             id: 'pord',
-            cargo: 'Producción',
+            cargo: 'Produção',
             nombre: 'Johannes Hilliger, Josa Köbel'
         },
         {
             id: 'olle',
-            cargo: 'Dirección',
+            cargo: 'Direção',
             nombre: 'Olle Strandberg'
         },
         {
@@ -668,7 +633,7 @@ export const videosApi = {
         },
         {
             id: 'carlos',
-            cargo: 'Artsita de Circo',
+            cargo: 'Artista de Circo',
             nombre: 'Carlos Landaeta'
         },
         {
@@ -688,26 +653,26 @@ export const videosApi = {
         },
         {
             id: 'pord_camp',
-            cargo: 'Producción de Campo',
+            cargo: 'Produção de Campo',
             nombre: 'Helène Philipot, Farina Berndt, Christopeher Hupe'
         },
         {
             id: 'agr',
-            cargo: 'Agradecimientos',
+            cargo: 'Agradecimentos',
             nombre: 'Equipo Berlin Fiestpiele'
         },
     ],
-    concepto: 'Laboratorio de circo contemporaneo en el que se buscaba juntar la pratica del circo con otras artes. Ocho directores de circo debian generar una propuesta en una semana, junto a un equipo que nunca hubiera trabajado juntos.',
-    misiones: 'Performance de video, mezlca de video en vivo. Aportar a la propuesta escenica en estrucutura temporal e ilumincación.',
+    concepto: 'LLaboratório de circo contemporâneo que buscava unir a prática do circo com outras artes. Oito diretores de circo precisavam desenvolver uma proposta em uma semana, junto a uma equipe que nunca havia trabalhado junta.',
+    misiones: 'Performance de vídeo, mix de vídeo ao vivo. Contribuir para a proposta cênica em estrutura temporal e iluminação.',
     stack: 'Resolume',
     duración: '25 min',
-    aforo: '250 por presentación / 2 presentaciones',
+    aforo: '250 por apresentação / 2 apresentações',
     apoyo: 'Berlin Festpiele, Berlin Circus Festival',
     enlaces: [
         {
             id: 'issu',
             enlace: 'https://issuu.com/berlinerfestspiele/docs/circus18_magazin_web_barrierefrei',
-            text: 'Programación'
+            text: 'Programação'
         },
         {
             id: 'youtube',
@@ -792,18 +757,18 @@ export const videosApi = {
   lpm2018 : {
     id: 'lpm2018',
     title: 'LPM Live Mapping Contest',
-    fecha: 'Del 7 al 10 de Junio 2018',
+    fecha: 'De 7 a 10 de junho de 2018',
     lugar: 'Mattatoio, Roma, Italia',
     cargo: 'Video Mapper',
     equipo: [
         {
             id: 'prod',
-            cargo: 'Producción General',
+            cargo: 'Produção General',
             nombre: 'Live Performers Meeting'
         },
         {
             id: 'prod',
-            cargo: 'Producción Video-Mapping Contest',
+            cargo: 'Produção Video-Mapping Contest',
             nombre: 'Video Mapping Mexico'
         },
         {
@@ -812,18 +777,18 @@ export const videosApi = {
             nombre: 'Cuando canto grito, Cerrero feat Lucia Pulido (Uji remix), Llorona Records'
         },
     ],
-    concepto: 'Concurso de video mapping mezclado en vivo.',
-    misiones: 'Creación y perofrmance de video mapping.',
+    concepto: 'Competição de video-mapping mixado ao vivo.',
+    misiones: 'Criação e performance de video-mapping.',
     stack: 'Resolume',
     duración: '5 min',
-    aforo: '100 personas por ronda, 2 rondas',
-    reconocimientos: 'Finalista del concurso',
+    aforo: '100 pessoas por rodada, 2 rodadas',
+    reconocimientos: 'Finalista da competição',
     apoyo: 'LPM, Video Mapping Mexico',
     enlaces: [
         {
             id: 'lpm',
             enlace: 'https://liveperformersmeeting.net/editions/2018-rome/#:~:text=The%20nineteenth%20edition%20of%20LPM,spaces%20of%20Mattatoio%20in%20Rome.',
-            text: 'Convocatoria LPM'
+            text: 'Chamada LPM'
         },
         {
             id: 'video',
@@ -879,21 +844,21 @@ export const videosApi = {
   street_pack : {
     id: 'streetpack',
     title: 'Street Pack Festival',
-    fecha: 'Septiembre 2017-2018-2019',
-    lugar: "Mix'Art Myrys, Toulouse, Francia",
+    fecha: 'Septembro 2017-2018-2019',
+    lugar: "Mix'Art Myrys, Toulouse, França",
     cargo: 'VJ Master, Video Mapper',
     equipo: [
         {
             id: 'prod',
-            cargo: 'Producción',
+            cargo: 'Produção',
             nombre: 'Scratch Assembly'
         },     
     ],
-    concepto: 'Festival de Scratch y artes urbanas de 2 días',
-    misiones: 'Diseñar video-mapping y coordinar visuales (vjing, vjs, mezcla de video en vivo) del festival. Montaje y desmontaje de equipos de video.',
+    concepto: 'Festival de Scratch e artes urbanas de 2 dias',
+    misiones: 'Criar video-mapping e coordenar os visuais (VJing, VJs, mix de vídeo ao vivo) do festival. Montagem e desmontagem de equipamentos de vídeo.',
     stack: 'Resolume',
-    duración: '2 días, 8-10 horas por día',
-    aforo: 'alrededor de 1500 personas por noche',
+    duración: '2 dias, 8 a 10 horas por dia',
+    aforo: 'cerca de 1500 pessoas por noite',
     apoyo: "Scratch Assembly, Mix'Art Myrys, Le Proyectarium, 5 minutes, Tv Bruits, Didier Bonmaison, Vicent Dombret, Mutha, Maïlis Gourdon",
     enlaces: [
         {
@@ -947,13 +912,13 @@ export const videosApi = {
   lanuiteedm2019 : {
         id: 'lanuiteedm2019',
         title: 'La Nuit Européenne des Musées',
-        fecha: 'Mayo 2018-2019',
-        lugar: 'Muséum - Museo Saint-Raymont, Toulouse, Francia',
+        fecha: 'Maio 2018-2019',
+        lugar: 'Muséum - Museo Saint-Raymont, Toulouse, França',
         cargo: 'Video-Mapper',
         equipo: [
             {
                 id: 'prod',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Culture en Mouvements'
             },
             {
@@ -962,18 +927,18 @@ export const videosApi = {
                 nombre: 'Le Proyectarium'
             },
         ],
-        concepto: 'Para la noche europea de los museos de 2018 y 2019, se me encomendo hacer un video-mapping, de temática libre en 2018 y bajo la temática de los superhéroes en 2019',
-        misiones: 'Concepto y ejecución de video-mapping',
+        concepto: 'Para a Noite Europeia dos Museus de 2018 e 2019, fui convidado a criar um video-mapping, com temática livre em 2018 e sob a temática dos super-heróis em 2019.',
+        misiones: 'Conceito e execução de video-mapping',
         stack: 'Resolume',
         duración: '7 horas',
-        aforo: 'alrededor de 15000 personas, publico flotante',
+        aforo: 'cerca de 15.000 pessoas, público flutuante',
         reconocimentos: '',
         apoyo: 'Culture en Mouvements, Le Proyectarium',
         enlaces: [
             {
                 id: 'tlseblog',
                 enlace: 'https://www.toulouseblog.fr/la-nuit-europeenne-des-musees-le-weekend-prochain-a-toulouse/',
-                text: 'Reseña Toulouse Blog'
+                text: 'Resenha Toulouse Blog'
             },
         ],
         images : [
@@ -1032,20 +997,20 @@ export const videosApi = {
         id: 'ecoscol',
         title: 'Ecos de Colombia',
         fecha: '7 de noviembre 2018',
-        lugar: 'La Brique Rouge, Toulouse, Francia',
+        lugar: 'La Brique Rouge, Toulouse, França',
         cargo: 'Artista Performer Audiovisual',
         equipo: [
             {
                 id: 'prod',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Festival Locombia'
             },
         ],
-        concepto: 'Remezcla de video en vivo a partir de diferentes medias visuales y sonoros: voz, paisaje sonoo, música, video documental, animación, imagén generativa, 3D, video pirateo, entre otros. La idea era crear un viaje por diferentes matices de la cultura colombiana.',
-        misiones: 'Concepto y presentación de performance audiovisual',
+        concepto: 'Remixagem de vídeo ao vivo a partir de diferentes mídias visuais e sonoras: voz, paisagem sonora, música, vídeo documental, animação, imagem generativa, 3D, vídeo pirata, entre outros. A ideia era criar uma viagem por diferentes matizes da cultura colombiana..',
+        misiones: 'Conceito e apresentação de performance audiovisual',
         stack: 'Resolume',
         duración: '45 min',
-        aforo: '50 personas',
+        aforo: '50 pessoas',
         reconocimentos: '',
         apoyo: 'Festival Locombia, Guayabo Colectivo',
         images: [
@@ -1086,21 +1051,21 @@ export const videosApi = {
 
   avinstalation : {
         id: 'avinstall',
-        title: 'Instalación Audiovisual Interactiva',
-        fecha: '3 de mayo 2017',
-        lugar: "Mix'Art Myrys, Toulouse, Francia",
+        title: 'Instalação Audiovisual Interativa',
+        fecha: '3 de maio 2017',
+        lugar: "Mix'Art Myrys, Toulouse, França",
         cargo: 'Artista de video',
-        concepto: 'En el marco del evento Clutchorama propuse esta pieza audiovisual inmersiva que constaba de 3 pantallas a escala humana y con la cual se interactuaba por medio de un microfono, modificando el contenido audiovisual audio-reactivamente.',
-        misiones: 'Concepto y montaje',
+        concepto: 'No âmbito do evento Clutchorama, propus esta peça audiovisual imersiva composta por 3 telas em escala humana, com a qual se interagia por meio de um microfone, modificando o conteúdo audiovisual de forma audio-reativa.',
+        misiones: 'Conceito e montagem',
         stack: 'Resolume, Matrox, Arduino, Pure Data',
         duración: '7 horas',
-        aforo: '3000 personas, publico flotante',
+        aforo: '3.000 pessoas, público flutuante',
         apoyo: 'Pôle Video, Le Proyectarium, Claudio Nervi',
         enlaces: [
             {
                 id: 'clutch',
                 enlace: 'https://www.youtube.com/watch?v=Rq2nxX1ppj0',
-                text: 'Video del Evento por la Clutch Magazine'
+                text: 'Vídeo do Evento pela Clutch Magazine'
             },
         ],
         images: [
@@ -1135,11 +1100,11 @@ export const videosApi = {
         id: 'vjpanthera',
         title: 'VJ Panthera',
         fecha: '2014-2018',
-        lugar: 'Colombia, Francia, Alemania, Italia',
+        lugar: 'Colômbia, França, Alemanha, Itália',
         cargo: 'Artista VJ',
-        concepto: 'Mezcla de video en vivo',
+        concepto: 'Mix de vídeo ao vivo',
         stack: 'Resolume',
-        reconocimientos: 'Ganador en la Batalla de VJs del FECI Bogotá 2016',
+        reconocimientos: 'Vencedor na Batalha de VJs do FECI Bogotá 2016',
         images: [
             {
                 id: 1,
@@ -1156,7 +1121,7 @@ export const videosApi = {
         id: 'guayabros',
         title: 'Guayabo Brothers',
         fecha: '2017-2018',
-        lugar: 'Toulouse, Francia',
+        lugar: 'Toulouse, França',
         cargo: 'VJ',
         equipo: [
             {
@@ -1165,14 +1130,14 @@ export const videosApi = {
                 nombre: 'Guayabo Brothers'
             },
         ],
-        concepto: 'Desarrollo y performance de show visual para conciertos de Los Guayabo Brothers, a partir del concepto de psicodelia tropical. Concepción de material visual especialmente para ser mezclado en vivo.',
+        concepto: 'Desenvolvimento e performance de show visual para os concertos dos Guayabo Brothers, a partir do conceito de psicodelia tropical. Concepção de material visual especialmente criado para ser mixado ao vivo.',
         stack: 'Resolume',
         apoyo: 'Los Guayabo Brothers, El Guayabo Colectivo',
         enlaces: [
             {
                 id: 'musicodrome',
                 enlace: 'https://lemusicodrome.com/soiree-los-guayabo-brothers-toulouse-2018/',
-                text: 'Reseña por Le Musicodrome'
+                text: 'Resenha por Le Musicodrome'
             },
         ],
         images: [
@@ -1207,17 +1172,17 @@ export const videosApi = {
         id: 'caliwood',
         title: 'Caliwood Remixed',
         fecha: 'Marzo 2017',
-        lugar: 'Toulouse, Francia',
+        lugar: 'Toulouse, França',
         cargo: 'Artista de Video',
         equipo: [
             {
                 id: 'cinelatino',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Cinélatino, Rencontres de Toulouse '
             },
         ],
-        concepto: 'Para el programa especial dedicado al cine de Cali, realizé un bucle de video a partir de los films que se presentaban en este programa y una presentación en vivo re-mezclando este material',
-        misiones: 'Remezcla de video',
+        concepto: 'Para o programa especial dedicado ao cinema de Cali, criei um loop de vídeo a partir dos filmes apresentados nesse programa e uma apresentação ao vivo remixando esse material.',
+        misiones: 'Remixagem de vídeo',
         apoyo: 'Cinélatino, Rencontres de Toulouse',
         images: [
             {
@@ -1258,8 +1223,8 @@ export const videosApi = {
   esteropicnic : {
         id: 'esteropicnic',
         title: 'Electric Mistakes: Estero Picnic',
-        fecha: '10 de marzo 2016',
-        lugar: 'Festival Estéreo Picnic, Bogotá, Colombia',
+        fecha: '10 de março 2016',
+        lugar: 'Festival Estéreo Picnic, Bogotá, Colômbia',
         cargo: 'VJ',
         equipo: [
             {
@@ -1269,15 +1234,15 @@ export const videosApi = {
             },
             {
                 id: 'prod',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Santiago Marin'
             },
         ],
-        concepto: 'Show visual para presentación del grupo de rock Electric Mistakes en el festival Estero Picnic.',
-        misiones: 'Concepto, producción y performance de show visual.',
+        concepto: 'Show visual para a apresentação da banda de rock Electric Mistakes no festival Estero Picnic.',
+        misiones: 'Conceito, produção e performance de show visual.',
         stack: 'Resolume',
         duración: '45 min',
-        aforo: '1000 personas',
+        aforo: '1000 pessoas',
         images: [
             {
                 id: 1,
@@ -1324,14 +1289,14 @@ export const videosApi = {
 
   imputaciones : {
         id: 'imputaciones',
-        title: 'Imputaciones: Cabaret Político Multimedia',
-        fecha: '4 de mayo y 12 y 13 de agosto 2016',
-        lugar: 'Bogotá, Colombia',
+        title: 'Imputaciones: Cabaret Político Multimídia',
+        fecha: '4 de maio e 12 e 13 de agosto de 2016',
+        lugar: 'Bogotá, Colômbia',
         cargo: 'Artista de Video',
         equipo: [
             {
                 id: 'nadia',
-                cargo: 'Directora',
+                cargo: 'Diretora',
                 nombre: 'Nadia Granados'
             },
             {
@@ -1366,15 +1331,15 @@ export const videosApi = {
             },
             {
                 id: 'pinina',
-                cargo: 'Anfitrión',
+                cargo: 'Anfitrião',
                 nombre: 'Pinina Flandes'
             },
         ],
-        concepto: 'Laboratorio de cabarte politico multimedia dirigido por Nadia Granados, en la que 6 artsitas performers desarrollaban un acto multimedia.',
-        misiones: 'Asistir la puesta en escena y técnica de video. Operar proyecciones durante presentaciones.',
+        concepto: 'Laboratório de cabaré político multimídia dirigido por Nadia Granados, no qual 6 artistas performers desenvolviam um ato multimídia.',
+        misiones: 'Assistir a montagem cênica e técnica de vídeo. Operar projeções durante as apresentações.',
         stack: 'Resolume',
         duración: '1 hora',
-        aforo: 'alrededor de 30 personas por presentación.',
+        aforo: 'Cerca de 30 pessoas por apresentação.',
         reconocimientos: '',
         apoyo: '',
         images: [
@@ -1408,8 +1373,8 @@ export const videosApi = {
   famiasuto : {
         id: 'famiasuto',
         title: 'Famia Suto: Hip-Hop al Parque',
-        fecha: '15 de noviembre 2015',
-        lugar: 'Parque Simón Bolivar, Bogotá, Colombia',
+        fecha: '15 de novembro 2015',
+        lugar: 'Parque Simón Bolivar, Bogotá, Colômbia',
         cargo: 'VJ',
         equipo: [
             {
@@ -1419,15 +1384,15 @@ export const videosApi = {
             },
             {
                 id: 'sebas',
-                cargo: 'Fotografo',
+                cargo: 'Fotógrafo',
                 nombre: 'Juan Sebastián González'
             },
         ],
-        concepto: 'Show visual para la presentación del grupo Famia Suto en Hip-Hop al Parque 2015',
-        misiones: 'Concepto y performance de video',
+        concepto: 'Show visual para a apresentação do grupo Famia Suto no Hip-Hop al Parque 2015',
+        misiones: 'Conceito e performance de vídeo',
         stack: 'Resolume',
         duración: '45 min',
-        aforo: 'alrededor de 5000 personas',
+        aforo: 'Cerca de 5000 pessoas',
         images: [
             {
                 id: 1,
@@ -1466,40 +1431,40 @@ export const videosApi = {
 
   atusombra : {
         id: 'atusombra',
-        title: 'A tu sombra',
+        title: 'À tua sombra',
         fecha: '2012',
         lugar: 'Bogotá',
-        cargo: 'Realizador de video',
+        cargo: 'Realizador de vídeo',
         equipo: [
             {
                 id: 'grupo',
-                cargo: 'Grupo',
+                cargo: 'Companhia',
                 nombre: 'Proyecto Collage'
             },
             {
                 id: 'camiloa',
-                cargo: 'Dirección y dramaturgia',
+                cargo: 'Direção e dramaturgia',
                 nombre: 'Camilo Alvarado'
             },
             {
                 id: 'jennyd',
-                cargo: 'Actriz',
+                cargo: 'Atriz',
                 nombre: 'Jenny Delgado'
             },
             {
                 id: 'danilog',
-                cargo: 'Actor',
+                cargo: 'Ator',
                 nombre: 'Danilo García'
             },
         ],
-        concepto: 'Obra de teatro con proyecciones.',
-        misiones: 'Realizar videos para la obra',
+        concepto: 'Peça de teatro com projeções.',
+        misiones: 'Criar vídeos para a peça.',
         duración: '45 min',
         enlaces: [
             {
                 id: 'kiosko',
                 enlace: 'https://kioskoteatral.com/obras-hist/tu-sombra/',
-                text: 'Reseña Kiosko Teatral'
+                text: 'Resenha Kiosko Teatral'
             },
         ],
         images: [
@@ -1517,9 +1482,9 @@ export const videosApi = {
   encarnacion : {
         id: 'encarnacion',
         title: 'Encarnación de un tambor alegre',
-        fecha: '14 de octubre de 2014',
-        lugar: 'Auditorio FUGA, Bogotá, Colombia',
-        cargo: 'Asistente de Video-Mapping',
+        fecha: '14 de octubro de 2014',
+        lugar: 'Auditorio FUGA, Bogotá, Colômbia',
+        cargo: 'Assistente de Video-Mapping',
         equipo: [
             {
                 id: 'sonidosenraizados',
@@ -1527,8 +1492,8 @@ export const videosApi = {
                 nombre: 'Sonidos Enraizados, Juan Orozco y Pablo Mora Calderón.'
             },
         ],
-        concepto: 'Live Cinema, performance audiovisual para la inaguración de la 16a Muestra Internacional Documental de Bogotá 2014.',
-        misiones: 'Cuadrar video-mapping y operarlo.',
+        concepto: 'Live Cinema, performance audiovisual para a inauguração da 16ª Mostra Internacional Documental de Bogotá 2014.',
+        misiones: 'Configurar o video-mapping e operá-lo.',
         stack: 'Resolume',
         enlaces: [
             {

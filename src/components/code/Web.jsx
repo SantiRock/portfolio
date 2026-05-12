@@ -8,10 +8,10 @@ function Site ({obj}) {
   return(
     <div class={`${styles.container} ${styles.cp}`} >
       <h4 class={styles.title}>{obj.title}</h4>
-      <p><span class={styles.bold}>Fecha:</span> {obj.fecha}</p>
-      <p><span class={styles.bold}>Concepto:</span> {obj.concepto}</p>
+      <p><span class={styles.bold}>Data:</span> {obj.fecha}</p>
+      <p><span class={styles.bold}>Conceito:</span> {obj.concepto}</p>
       <p><span class={styles.bold}>Stack:</span> {obj.stack}</p>
-      <p class={styles.bold}>Enlaces:</p> 
+      <p class={styles.bold}>Links:</p> 
       <ul class={styles.ul}>
         {obj.enlaces.map(({id, enlace, text}) => (
           <li key={id}><a href={enlace} target="_blank">{text}</a></li>
@@ -85,7 +85,7 @@ export function Web () {
         <li id="zhizhwa" class={styles.proyecto} onclick={open_Zhizhwa}>Zhizhwa / 2025</li>
         {showZhizhwa() && (<Site obj={webapi.zhizhwa}/>)}
 
-        <li id="aigallery" class={styles.proyecto} onclick={open_Aigallery}>AI Gallery / 2025</li>
+        <li id="aigallery" class={styles.proyecto} onclick={open_Aigallery}>Gallery / 2025</li>
         {showAigallery() && (<Site obj={webapi.aigallery}/>)}
 
         <li id="skull" class={styles.proyecto} onclick={open_Skull}>Skull Test / 2025</li>

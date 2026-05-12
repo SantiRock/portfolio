@@ -29,6 +29,7 @@ export function Recientes () {
     const [showAi, setShowAi] = createSignal(false);
     const [showZhizwha, setShowZhizwha] = createSignal(false);
     const [showAstronativo, setShowAstronativo] = createSignal(false);
+    const [showGallery, setShowGallery] = createSignal(false);
 
     const open_Pipoca = () => {
         setShowPipoca(prev => !prev);
@@ -46,17 +47,24 @@ export function Recientes () {
         setShowAstronativo(prev => !prev);
     }
 
+    const open_Gallery = () => {
+        setShowGallery(prev => !prev);
+    }
+
     return(
         <div class={styles.container}>
             <ul>
-                <li id="ai" class={styles.proyecto} onclick={open_ai}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2025</li>
-                {showAi() && (<Recent obj={recentapi.ai}/>)}
+                <li id="chocoesp" class={styles.proyecto} onclick={open_ai}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2025</li>
+                {showAi() && (<Recent obj={recentapi.chocoesp}/>)}
 
                 <li id="pipoca" class={styles.proyecto} onclick={open_Pipoca}>Pipoca <span class={styles.type}>Música</span> / 2026</li>
                 {showPipoca() && (<Recent obj={recentapi.pipoca}/>)}
 
                 <li id="zhizhwa" class={styles.proyecto} onclick={open_Zhizhwa}>Zhizhwa <span class={styles.type}>net art</span> / 2025</li>
                 {showZhizwha() && (<Recent obj={recentapi.zhizhwa}/>)}
+
+                <li id="gallery" class={styles.proyecto} onclick={open_Gallery}>Gallery <span class={styles.type}>Artes gráficas</span> / 2025 - 2026</li>
+                {showGallery() && (<Recent obj={recentapi.gallery}/>)}                
 
                 <li id="astronativo" class={styles.proyecto} onclick={open_Astronativo}>Astronativo <span class={styles.type}>Live Visuals</span> / 2024 - 2025</li>
                 {showAstronativo() && (<Recent obj={recentapi.astronativo}/>)}

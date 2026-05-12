@@ -3,18 +3,18 @@ export const moviesapi = {
         id: 'myswa',
         title: 'Myswa0.0',
         fecha: '2025',
-        lugar: 'Cali, Colombia',
+        lugar: 'Cali, Colômbia',
         cargo: 'Realizador',
-        concepto: 'Cortometraje de cine abstracto-video clip realizado con inteligencia artificial. Modelo Midjourney V7',
+        concepto: 'Curta-metragem de cinema abstrato — videoclipe realizado com inteligência artificial. Modelo Midjourney V7.',
         duracion: '4:16 min',
         video:'<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1133305245?h=b3ff6b3e20" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
     },
 
     aguasalada : {
         id: 'aguasalada',
-        title: 'Agua Salada',
+        title: 'Água Salgada',
         fecha: '2022',
-        lugar: 'Puerto Colombia - Barranquilla, Colombia',
+        lugar: 'Puerto Colombia - Barranquilla, Colômbia',
         cargo: 'Producción',
         equipo: [
             {
@@ -34,52 +34,52 @@ export const moviesapi = {
             },
             {
                 id: 'intructorsurf',
-                cargo: 'Instructor de Surf',
+                cargo: 'Instrutor de Surf',
                 nombre: 'Rafael Ahumada'
             },
             {
                 id: 'amigacole1',
-                cargo: 'Amiga Colegio 1',
+                cargo: 'Amiga Colégio 1',
                 nombre: 'Aura Dovale'
             },
             {
                 id: 'amigacole2',
-                cargo: 'Amiga Colegio 2',
+                cargo: 'Amiga Colégio 2',
                 nombre: 'Clara Velia'
             },
             {
                 id: 'direccion',
-                cargo: 'Dirección',
+                cargo: 'Direção',
                 nombre: 'Juan Marrugo "Kembar"'
             },
             {
                 id: 'producción',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Ana Cervantes'
             },
             {
                 id: 'guion',
-                cargo: 'Guión',
+                cargo: 'Roteiro',
                 nombre: 'Victor Capela'
             },
             {
                 id: 'dirarte',
-                cargo: 'Dirección de Arte',
+                cargo: 'Direção de Arte',
                 nombre: 'Rafael Ahumada'
             },
             {
                 id: 'dirfoto',
-                cargo: 'Dirección de Fotografía',
+                cargo: 'Direção de Fotografía',
                 nombre: 'Rafael Vega'
             },
             {
                 id: 'sondirectojf',
-                cargo: 'Sonido Directo',
+                cargo: 'Som Direto',
                 nombre: 'Juan Felizzola'
             },
             {
                 id: 'montajesq',
-                cargo: 'Montaje',
+                cargo: 'Montagem',
                 nombre: 'Santiago Quintero'
             },
             {
@@ -89,16 +89,16 @@ export const moviesapi = {
             },
             {
                 id: 'meclaav',
-                cargo: 'Mezlca',
+                cargo: 'Mixagem',
                 nombre: 'Alejo Villa'
             },
             {
                 id: 'agradeced',
-                cargo: 'Agradecimientos',
-                nombre: 'Colegio Seminario San Luis Beltran, Edgar Cardenas, David, Programa de Comunicación Audiovisual de la Universidad Autónoma del Caribe'
+                cargo: 'Agradecimentos',
+                nombre: 'Colégio Seminario San Luis Beltran, Edgar Cardenas, David, Programa de Comunicación Audiovisual de la Universidad Autónoma del Caribe'
             },
         ],
-        concepto: 'En el marco de la materia Taller de Cine Digital del programa de Comunicación Audiovisual de la Universidad Autónoma del Caribe, realizamos este cortometraje de ficción con los estudiantes.',
+        concepto: 'No âmbito da disciplina Taller de Cine Digital do programa de Comunicação Audiovisual da Universidad Autónoma del Caribe, realizamos este curta-metragem de ficção com os estudantes.',
         duracion: '13:19 min',
         video:'<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/895572052?h=ba3fe3ac2d&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         images: [
@@ -125,12 +125,12 @@ export const moviesapi = {
         id: 'andromeda',
         title: 'Andrómeda',
         fecha: '2016',
-        lugar: 'Bogotá, Colombia',
-        cargo: 'Director',
+        lugar: 'Bogotá, Colômbia',
+        cargo: 'Diretor',
         equipo: [
             {
                 id: 'animasqp',
-                cargo: 'Animación',
+                cargo: 'Animação',
                 nombre: 'Santiago Quintero'
             },
             {
@@ -140,29 +140,29 @@ export const moviesapi = {
             },
             {
                 id: 'foleydsdp',
-                cargo: 'Foley & Diseño Sonoro',
+                cargo: 'Foley & Design Sonoro',
                 nombre: 'Daniel Panqueva'
             },
             {
                 id: 'musudjdhz',
-                cargo: 'Co-productor música y Flauta',
+                cargo: 'Co-produtor musical e Flauta',
                 nombre: 'Daniel Salazar'
             },
         ],
-        concepto: 'Cortometraje abastracto a partir de imágenes de rollos de 35mm corroídas por el tiempo y los hongos.',
+        concepto: 'Curta-metragem abstrato a partir de imagens de rolos de 35mm corroídos pelo tempo e pelo fungo.',
         duracion: '7:23 min',
         presentaciones: [
             {
                 id: "traversevideo",
-                fest: "Traverse Video 2018, Toulouse, Francia",
+                fest: "Traverse Video 2018, Toulouse, França",
             },
             {
                 id: "cineautopsia",
-                fest: "Festival CineAutopsia 2017, Bogotá, Colombia",
+                fest: "Festival CineAutopsia 2017, Bogotá, Colômbia",
             },
             {
                 id: "puntoyraya",
-                fest: "Puto y Raya Festival 2016, Karlsruhe, Alemania",
+                fest: "Puto y Raya Festival 2016, Karlsruhe, Alemanha",
             }
         ],
         video:'<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/897756921?h=9b3ac7f836&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -198,7 +198,7 @@ export const moviesapi = {
         id: 'baladarock',
         title: 'Balada Rock',
         fecha: '2014',
-        lugar: 'Bogotá, Colombia',
+        lugar: 'Bogotá, Colômbia',
         cargo: 'Director',
         equipo: [
             {
@@ -218,17 +218,17 @@ export const moviesapi = {
             },
             {
                 id: 'prodkaa',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Matú Producciones, Weekend'
             },
             {
                 id: 'direasas',
-                cargo: 'Dirección',
+                cargo: 'Direção',
                 nombre: 'Nicolás Olivera, Santiago Quintero'
             },
             {
                 id: 'euipspaa',
-                cargo: 'Equipo de Rodaje',
+                cargo: 'Equipe de Rodagem',
                 nombre: 'Cristina Castellanos, Laura Roncancio, Felipe Herreño'
             },
             {
@@ -238,11 +238,11 @@ export const moviesapi = {
             },
             {
                 id: 'agradescdsds',
-                cargo: 'Agradecimientos',
+                cargo: 'Agradecimentos',
                 nombre: 'Julián Panclasta, Denisse Ariadna, Catalina Martínez, Leticia Roux, Arquitectura Expandida, Roberto Ruido, Christian Diletante, Quince16, La Rddx'
             }
         ],
-        concepto: 'Cortometraje que co-dirigimos con Nicolás Olivera para el festival de cortos psicoactivos de 2014.',
+        concepto: 'Curta-metragem que co-dirigimos com Nicolás Olivera para o festival de curtas psicoativos de 2014.',
         duracion: '5:07 min',
         presentaciones: [
             {
@@ -257,8 +257,8 @@ export const moviesapi = {
         id: 'equactder',
         title: 'Ecuador',
         fecha: '2011',
-        lugar: 'Bogotá, Colombia',
-        cargo: 'Director',
+        lugar: 'Bogotá, Colômbia',
+        cargo: 'Diretor',
         equipo: [
             {
                 id: 'bovoap',
@@ -292,22 +292,22 @@ export const moviesapi = {
             },
             {
                 id: 'porejki',
-                cargo: 'Producción Ejecutiva',
+                cargo: 'Produção Executiva',
                 nombre: 'Kinoclaje'
             },
             {
                 id: 'profhdnaus',
-                cargo: 'Producción Asociada',
+                cargo: 'Produção Associada',
                 nombre: 'Nausíka Audiovisual'
             },
             {
                 id: 'porianan',
-                cargo: 'Producción de Campo',
+                cargo: 'Produção de Campo',
                 nombre: 'Ana María Ortiz'
             },
             {
                 id: 'diregfteotand',
-                cargo: 'Director de Fotografía',
+                cargo: 'Diretor de Fotografía',
                 nombre: 'Andrés Hernández'
             },
             {
@@ -317,17 +317,17 @@ export const moviesapi = {
             },
             {
                 id: 'lumndjduca',
-                cargo: 'Luminotécnico',
+                cargo: 'Eletricista de cena',
                 nombre: 'Juan Camilo Arias'
             },
             {
                 id: 'dir4iiasapsmas',
-                cargo: 'Dirección de Arte',
+                cargo: 'Direção de Arte',
                 nombre: 'María Adelaida Samper'
             },
             {
                 id: 'disejejds',
-                cargo: 'Diseño Sonoro',
+                cargo: 'Design Sonoro',
                 nombre: 'Simón Insignares'
             },
             {
@@ -337,16 +337,16 @@ export const moviesapi = {
             },
             {
                 id: 'sdisiras',
-                cargo: 'Dirección',
+                cargo: 'Direção',
                 nombre: 'Santiago Quintero'
             },
             {
                 id: 'agdrsdsdfas',
-                cargo: 'Agradecimientos',
+                cargo: 'Agradecimentos',
                 nombre: 'Claudia Léon, Catalina Herreño, La Kcitta Mòvil, Juan Felipe Ríos, Susana Ortiz, Fernando Ramírez, Camila Loboguerrero, Alberto Amaya, Escuela de Cine y Televisión UNAL, Quince16'
             },
         ],
-        concepto: 'Cortometraje de ficción que realicé como trabajo de grado para la Escuela de Cine y Televisión.',
+        concepto: 'Curta-metragem de ficção que realizei como trabalho de conclusão de curso para a Escola de Cinema e Televisão.',
         duracion: '10:45 min',
         presentaciones: [
             {
@@ -361,27 +361,27 @@ export const moviesapi = {
         id: 'jattends',
         title: "J'attends la pluie",
         fecha: 'Febrero 2019',
-        lugar: "Mix'Art Myrys, Toulouse, Francia",
-        cargo: 'Montajista',
+        lugar: "Mix'Art Myrys, Toulouse, França",
+        cargo: 'Montador',
         equipo: [
             {
                 id: 'nawras',
-                cargo: 'Un proyecto de',
+                cargo: 'Um projeto de',
                 nombre: 'Nawras Shalhoub'
             },
             {
                 id: 'prodtvbruit',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Tv Bruits'
             },
             {
                 id: 'cmajano',
-                cargo: 'Cámara',
+                cargo: 'Cameraman',
                 nombre: 'Jean Noël'
             },
             {
                 id: 'moanatej',
-                cargo: 'Montaje',
+                cargo: 'Montagem',
                 nombre: 'Santiago Quintero'
             },
             {
@@ -406,16 +406,16 @@ export const moviesapi = {
             },
             {
                 id: 'conshajs',
-                cargo: 'Con el apoyo de',
+                cargo: 'Com o apoio de',
                 nombre: "Mix'Art Myrys"
             },
         ],
-        concepto: "Cubrimiento de la inaguración de la exposición J'attends la pluie organisada por Nawras Shalhoub de origen palestino con artistas compatriotas suyos. Se realizaron 4 videos que presentan las actividades principales del evento.",
+        concepto: "Cobertura da inauguração da exposição J'attends la pluie organizada por Nawras Shalhoub, de origem palestina, com artistas compatriotas seus. Foram realizados 4 vídeos que apresentam as principais atividades do evento.",
         enlaces: [
             {
                 id: 'tvhhsvsvs',
                 enlace: 'https://tvbruits.org/spip.php?article2620',
-                text: 'Articulo de Tv Bruits - Videos'
+                text: 'Artigo da Tv Bruits - Vídeos'
             },
         ],
         video: '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/329808042?h=952893917a&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -433,38 +433,38 @@ export const moviesapi = {
 
     arb : {
         id: 'arbwiego',
-        title: 'Asociación de Recicladores de Bogotá',
+        title: 'Associação de Recicladores de Bogotá',
         fecha: '2014',
-        lugar: 'Bogotá Colombia',
-        cargo: 'Montajista',
+        lugar: 'Bogotá Colômbia',
+        cargo: 'Montador',
         equipo: [
             {
                 id: 'chiguro',
-                cargo: 'Producción',
+                cargo: 'Produção',
                 nombre: 'Chigüiro C.E.'
             },
             {
                 id: 'connass',
-                cargo: 'Con el apoyo de',
-                nombre: 'WIEGO (Woman in Informal Employment Globalizinf and Organizing) y la ARB (Asociación de Recicladores de Bogotá)'
+                cargo: 'Com o apoio de',
+                nombre: 'WIEGO (Woman in Informal Employment Globalizinf and Organizing) y la ARB (Associação de Recicladores de Bogotá)'
             }
         ],
-        concepto: 'Con unos amigos, bajo el nombre de Chigüiro C.E. (Comunicación Efectiva), en 2014 realizamos una serie de videos institcionales para la ARB. Mi responsabilidad fue la parte de edición y montaje.',
+        concepto: 'Com alguns amigos, sob o nome de Chigüiro C.E. (Comunicação Efetiva), em 2014 realizamos uma série de vídeos institucionais para a ARB. Minha responsabilidade foi a edição e montagem.',
         enlaces: [
             {
                 id: 'vidoeoss',
                 enlace: 'https://youtu.be/wO36UsPPodo?si=VelLadkj3ezci_Jb',
-                text: 'Video: Auto 275 - ¿Qué pasaba?'
+                text: 'Video: Auto 275 - O que estava acontecendo?'
             },
             {
                 id: 'vidoeosssusystars',
                 enlace: 'https://youtu.be/WVoRaT-YwI4?si=wU09_2VT-j4uyg_e',
-                text: 'Video: Sustitución de vehículos de tracción animal en Bogotá - Crónicas de una lucha por la inclusión'
+                text: 'Vídeo: Substituição de veículos de tração animal em Bogotá - Crônicas de uma luta pela inclusão'
             },
             {
                 id: 'visdsdksdj',
                 enlace: 'https://youtu.be/7iUzTz3tpWk?si=F3uG0X9yiZTohmDn',
-                text: 'Video: Aprovechamiento - 2 Sencillos pasos para reciclar'
+                text: 'Vídeo: Aproveitamento - 2 passos simples para reciclar'
             }
         ],
         video:'<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe style="position: absolute; top: 0; left: 0;" width="100%" height="100%" src="https://www.youtube.com/embed/wO36UsPPodo?si=3HpOppdzPRwHbhsL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>',

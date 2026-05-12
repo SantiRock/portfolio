@@ -3,8 +3,8 @@ export const soundapi = {
     pipoca : {
         title: "Pipoca",
         fecha: "2026",
-        lugar: "Digital, Cali",
-        concepto: "Proyecto musical que incorpora inteligencia artificial dentro de un proceso creativo guiado por una búsqueda artística sonora y visual. El proyecto se encuentra actualmente en etapa de desarrollo, previa a su lanzamiento oficial, con planes de publicar EPs y singles a partir de principios de 2026 en plataformas digitales. No se adscribe a un género específico, sino que explora fusiones sonoras abiertas. La idea es compartir el material, observar la respuesta del público y del entorno musical, y permitir que el proyecto se defina y crezca de forma orgánica.",
+        lugar: "Digital",
+        concepto: "Projeto musical que incorpora inteligência artificial dentro de um processo criativo guiado por uma busca artística sonora e visual. Não se limita a um gênero específico, mas explora fusões sonoras abertas",
         sound: "",
         enlaces: [
             {
@@ -27,19 +27,14 @@ export const soundapi = {
                 enlace: "https://www.youtube.com/@pipocatunes",
                 text: "Youtube Channel"
             },
-            {
-                id: "ppcsndc",
-                enlace: "https://soundcloud.com/pipocamusic",
-                text: "Soundcloud"
-            }
         ]
     },
     
     paisajes_sonoros : {
         title: "Paisajes Sonoros",
         fecha: "2019-2021",
-        lugar: "Toulouse (Francia), Le Truc Vert (Francia), Zaragoza (España), Minca (Colombia), Bogotá (Colombia), Villa de Leyva (Colombia), Isla Salamanca (Colombia)",
-        concepto: "Entre 2019 y 2021 estuve grabando paisajes sonoros por los diferentes lugares que visitaba. En principio había una curiosidad hacia la narración sonora, contar historias por medio del sonido, algo así como cine para los oídos. Luego esto se tranformaría más como en derivas a partir de momentos y texturas sonoras. Edité un par de tracks y subi algunas grabaciones en bruto a FreeSound, una plataforma para comparitr sonidos. También participé en el proyecto Field Recording - Infinite Mixtapes de la radio digital NTS Radio.",
+        lugar: "Toulouse (França), Le Truc Vert (França), Zaragoza (Espanha), Minca (Colômbia), Bogotá (Colômbia), Villa de Leyva (Colômbia), Isla Salamanca (Colômbia)",
+        concepto: "Entre 2019 e 2021 fui gravando paisagens sonoras pelos diferentes lugares que visitava. No início havia uma curiosidade pela narrativa sonora, contar histórias por meio do som, algo como cinema para os ouvidos. Com o tempo isso foi se transformando em derivas a partir de momentos e texturas sonoras. Editei alguns tracks e subi algumas gravações brutas no FreeSound, uma plataforma para compartilhar sons. Também participei no projeto Field Recording - Infinite Mixtapes da rádio digital NTS Radio.",
         sound: '<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1125382312&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>',
         enlaces: [
             {
@@ -61,15 +56,15 @@ export const soundapi = {
     },
 
     exploracionesmusicales : {
-        title: "Exploraciones Musicales",
-        fecha: "2021 - Actualmente",
-        concepto: "Despues de experimentar con paisajes sonoros, me dieron ganas de explorar un lenguaje más musical, creando un par de tracks realizados a partir de sampleos y más recientemente jugando con sintetizadores digitales.",
+        title: "Explorações Musicais",
+        fecha: "2021 - 2024",
+        concepto: "Depois de experimentar com paisagens sonoras, surgiu a vontade de explorar uma linguagem mais musical, criando alguns tracks a partir de samples e, mais recentemente, explorando sintetizadores digitais.",
         sound: '<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1751041260&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>',
         enlaces: [
             {
                 id: "canalsisdds",
                 enlace: "https://soundcloud.com/intramar",
-                text: "Canal de Soundcloud"
+                text: "Soundcloud"
             }
         ]
     },
@@ -78,24 +73,19 @@ export const soundapi = {
         title: "Colombian Tapes",
         fecha: "2020-2023",
         lugar: "Radio Alhara",
-        concepto: "Podcast mensual de 1 hora de música colombiana en un espectro amplio para la radio digital de origen palestino Radio Alhara. A cada episodio le intentaba dar un viaje sonoro particular que iba acompañado de una foto de algún lugar del pais de mi archivo personal. Yo los concibo como capsulas del tiempo musicales colombianas.",
+        concepto: "Podcast mensal de 1 hora de música colombiana em um espectro amplo para a rádio digital de origem palestina Radio Alhara. Cada episódio buscava oferecer uma viagem sonora particular, acompanhada de uma foto de algum lugar do país do meu arquivo pessoal. Os concebo como cápsulas do tempo musicais colombianas.",
         sound: "",
         enlaces: [
             {
                 id: "cnalyoutubecoltapesss",
                 enlace: "https://www.youtube.com/@colombiantapes",
-                text: "Canal de Youtube"
+                text: "Youtube"
             },
             {
                 id: "mixclousclotapesjdhfghf",
                 enlace: "https://www.mixcloud.com/colombiantapes/",
-                text: "Cuenta Mixcloud"
+                text: "Mixcloud"
             },
-            {
-                id: "instahgsrahdscoclte",
-                enlace: "https://www.instagram.com/colombiantapes/",
-                text: "Cuenta Instagram"
-            }
         ],
         images: [
             {
@@ -326,20 +316,20 @@ export const soundapi = {
     },
 
     abyayalasounds : {
-        title: "Sonidos experimentales del Abya Yala",
-        fecha: "17 de noviembre 2018",
-        lugar: "Mix'Art Myrys, Toulouse, Francia",
-        concepto: "En el marco del festival multidisciplinar Libre propuse un performance sonoro enfocado a sonoridades experimentales latino-americanas.",
+        title: "Sons experimentais do Abya Yala",
+        fecha: "17 de noviembro 2018",
+        lugar: "Mix'Art Myrys, Toulouse, França",
+        concepto: "No âmbito do festival multidisciplinar Libre, propus uma performance sonora focada em sonoridades experimentais latino-americanas.",
         duracion: "45 min",
-        aforo: "150 personas"
+        aforo: "150 pessoas"
 
     },
 
     djselector : {
         title: "DJ Selector",
-        fecha: "2009 - 2021",
-        lugar: "Colombia - Francia",
-        concepto: "Selección de música poco conocida de excelente calidad de géneros diversos. Organización de los eventos.",
+        fecha: "2009 - 2026",
+        lugar: "Colômbia - França",
+        concepto: "Seleção de músicas pouco conhecidas de excelente qualidade de gêneros diversos. Organização dos eventos.",
         enlaces: [
             {
                 id: "nochejhciocidccumbiadjbrgejano",
@@ -366,10 +356,6 @@ export const soundapi = {
             }
         ]
     }
-
-
-
-    
 };
 
 const model = {

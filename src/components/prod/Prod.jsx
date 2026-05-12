@@ -11,7 +11,7 @@ function CaribeSound () {
     <div class={`${styles.container} ${styles.cp}`}>
       <h4 class={styles.title}>CaribeSound </h4>
       <p><span class={styles.bold}>Data:</span> 22 de junho de 2019</p>
-      <p><span class={styles.bold}>Local:</span> Mix'Art Myrys, Toulouse, Francia</p>
+      <p><span class={styles.bold}>Local:</span> Mix'Art Myrys, Toulouse, França</p>
       <p><span class={styles.bold}>Cargo:</span> Chefe de Projecto</p>
       <p><span class={styles.bold}>Missões:</span> Imaginar, planejar e executar. Fiz o contato com os participantes e coordenei todo o projeto.</p>
       <p><span class={styles.bold}>Conceito:</span> Festival musical e de artes visuais de pequeno formato em torno da cultura <span class={styles.obra}>"picotera"</span> do caribe colombiano</p>
@@ -44,40 +44,39 @@ function MasProd () {
   return(
     <div class={`${styles.container} ${styles.cp}`}>
       <div class={styles.container}>
-        <p><span class={styles.bold}>Proyecto: </span><span class={styles.artista}>6ta Bienal Internacional de Danza de Cali</span></p>
-        <p><span class={styles.bold}>Fecha:</span> 9 al 12 de Noviembre de 2023</p>
-        <p><span class={styles.bold}>Lugar:</span> Cali, Colombia</p>
-        <p><span class={styles.bold}>Cargo desempeñado:</span> Intérpete - Asistencia de producción para Ruth Childs, Crazy Smooth y Dorothée Munyaneza</p>
+        <p><span class={styles.bold}>Projeto: </span><span class={styles.artista}>6ta Bienal Internacional de Danza de Cali</span></p>
+        <p><span class={styles.bold}>Data:</span> 9 al 12 de Noviembre de 2023</p>
+        <p><span class={styles.bold}>Local:</span> Cali, Colômbia</p>
+        <p><span class={styles.bold}>Cargo:</span> Assistência de produção para Ruth Childs, Crazy Smooth e Dorothée Munyaneza</p>
         <Images obj={prodapi.bienaldedanza} />
      </div>
       <div class={styles.container}>
-        <p><span class={styles.bold}>Proyecto: </span><span class={styles.artista}>CaribeFemFest Vol5</span></p>
-        <p><span class={styles.bold}>Fecha:</span> 26, 27 & 28 de Marzo de 2022</p>
-        <p><span class={styles.bold}>Lugar:</span> Plataforma Caníbal, Barranquilla, Colombia</p>
-        <p><span class={styles.bold}>Cargo desempeñado:</span> Apoyo logístico</p>
-        <p><span class={styles.bold}>Concepto:</span> Festival feminista y diverso en el marco del Carnaval de Barranquilla.</p>
-        <p class={styles.bold}>Equipo:</p>
+        <p><span class={styles.bold}>Projeto: </span><span class={styles.artista}>CaribeFemFest Vol5</span></p>
+        <p><span class={styles.bold}>Data:</span> 26, 27 e 28 de março de 2022</p>
+        <p><span class={styles.bold}>Local:</span> Plataforma Caníbal, Barranquilla, Colombia</p>
+        <p><span class={styles.bold}>Cargo:</span> Apoio logístico</p>
+        <p><span class={styles.bold}>Conceito:</span> Festival feminista e diverso no âmbito do Carnaval de Barranquilla.</p>
+        <p class={styles.bold}>Equipe:</p>
         <ul class={styles.ul}>
-          <li class={styles.list}>Producción: Fundación Matronas</li>
+          <li class={styles.list}>Produção: Fundación Matronas</li>
         </ul>
         <Images obj={prodapi.caribefemfest} />
      </div>
      <div class={styles.container}>
-        <p><span class={styles.bold}>Proyecto: </span>presentación de la obra <span class={styles.artista}>La Itinerancia de la tribú del gitano Melquìadíades</span></p>
-        <p><span class={styles.bold}>Fecha:</span> 14 de Marzo de 2020</p>
-        <p><span class={styles.bold}>Lugar:</span> Teatro Cenit, Minca, Colombia</p>
-        <p><span class={styles.bold}>Cargo desempeñado:</span> Asistencia de producción</p>
-        <p><span class={styles.bold}>Concepto:</span> Presentación de obra de teatro y compartir</p>
-        <p class={styles.bold}>Equipo:</p>
+        <p><span class={styles.bold}>Projeto: </span>apresentação da peça de teatro <span class={styles.artista}>La Itinerancia de la tribú del gitano Melquìadíades</span></p>
+        <p><span class={styles.bold}>Data:</span> 14 de março de 2020</p>
+        <p><span class={styles.bold}>Local:</span> Teatro Cenit, Minca, Colômbia</p>
+        <p><span class={styles.bold}>Cargo:</span> Assistência de produção</p>
+        <p class={styles.bold}>Equipe:</p>
         <ul class={styles.ul}>
-          <li class={styles.list}>Producción: Cenit Arte Natura</li>
-          <li class={styles.list}>Compañia: Teatro Itinerante del Sol</li>
-          <li class={styles.list}>Directora: Beatriz Camargo</li>
-          <li class={styles.list}>Asistentes de producción: Santiago , Carmen Almeida y Carlos Pérez</li>
+          <li class={styles.list}>Produção: Cenit Arte Natura</li>
+          <li class={styles.list}>Companhia: Teatro Itinerante del Sol</li>
+          <li class={styles.list}>Diretora: Beatriz Camargo</li>
+          <li class={styles.list}>Assistentes de produção: Santiago , Carmen Almeida y Carlos Pérez</li>
         </ul>
         <Images obj={prodapi.teatrocenit} />
      </div>
-      <p>y muchos más ...</p>
+      <p>E muito mais...</p>
     </div>
   )
 }
