@@ -54,7 +54,7 @@ export function Recientes () {
     return(
         <div class={styles.container}>
             <ul>
-                <li id="chocoesp" class={styles.proyecto} onclick={open_ai}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2025</li>
+                <li id="chocoesp" class={styles.proyecto} onclick={open_ai}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2026</li>
                 {showAi() && (<Recent obj={recentapi.chocoesp}/>)}
 
                 <li id="pipoca" class={styles.proyecto} onclick={open_Pipoca}>Pipoca <span class={styles.type}>Música</span> / 2026</li>
