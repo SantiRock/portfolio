@@ -11,7 +11,7 @@ export function Producao () {
                     <p class={styles.p1}>Minha abordagem está em criar fluxos de trabalho fluidos, eficientes e respeitosos, buscando que cada pessoa possa desempenhar sua função da melhor forma possível. Gosto de desenvolver meus próprios formatos e ferramentas de acordo com as necessidades de cada projeto, mas também me adapto sem dificuldade a estruturas já estabelecidas. Não tenho medo de papelada nem de burocracia.</p>
                 </div>
                 <div class={styles.statment}>
-                    <p class={styles.p1}>Falo quatro idiomas — português, espanhol, francês e inglês — e desde pequeno habitei espaços interculturais, o que me permitiu colaborar com artistas de diferentes origens e disciplinas. Essa combinação de diálogo intercultural com entendimento técnico e conceitual das artes faz com que os artistas se sintam acompanhados e à vontade. Já trabalhei com artistas dos Estados Unidos, Canadá, México, Argentina, Venezuela, Uruguai, França, Suíça, Alemanha, Holanda, Reino Unido, Suécia, Polônia e Nova Zelândia.</p>
+                    <p class={styles.p1}>Falo quatro idiomas — português, espanhol, francês e inglês — e desde pequeno habitei espaços interculturais, o que me permitiu colaborar com artistas de diferentes origens e disciplinas. Essa combinação de diálogo intercultural com entendimento técnico e conceitual das artes faz com que os artistas se sintam acompanhados e à vontade. Já trabalhei com artistas dos Estados Unidos, Canadá, México, Argentina, Venezuela, Uruguai, Chile, Peru, França, Suíça, Alemanha, Holanda, Reino Unido, Suécia, Polônia, Palestina, Ruanda e Nova Zelândia.</p>
                 </div>
             </div>
         </div>
