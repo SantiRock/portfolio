@@ -29,6 +29,7 @@ export function About ({sobreClick, portClick}) {
           {copied}
         </span>
       </div>
+      <a class={styles.a1} href='https://www.instagram.com/av8visual/' target='_blank'>Instagram: av8visual </a> 
       <nav>
         <p class={styles.p1} onClick={sobreClick}>Sobre</p>
         <p class={styles.p1} onClick={portClick}>Portfólio</p>

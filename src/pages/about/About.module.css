@@ -46,6 +46,9 @@ h1 {
 .contact:hover + .tooltipText {
     display: block;
 }
+.a1 {
+    margin-bottom: 17px;
+}
 
 .p1 {
     margin-right: 17px;
