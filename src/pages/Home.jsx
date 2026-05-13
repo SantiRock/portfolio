@@ -16,7 +16,7 @@ export function Home () {
                     <p class={styles.p1}>Minha trajetória combina experiência técnica, sensibilidade artística e capacidade organizacional, integrando essas três dimensões de forma natural em cada projeto.</p>
                     <a class={styles.pl} href="#prod">- Produção e Coordenação Operacional</a>
                     <a class={styles.pl} href="#visual">- Live Visuals</a>
-                    <a class={styles.pl} href="#explo">- Explorações em iluminação, música e artes visuais.</a>
+                    <a class={styles.pl} href="#explo">- Explorações em iluminação, desenvolvimento web, música e artes visuais.</a>
                 </div>
             </div>
             <Producao />

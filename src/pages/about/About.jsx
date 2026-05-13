@@ -14,6 +14,10 @@ export function About ({sobreClick, portClick}) {
     }, 2500);
   }
 
+  const cvClick = () => {
+    window.open("/SantiagoQuinteroCV2026.pdf", "_blank");
+  }
+
   return(
     <header>
       <h1>Santiago Quintero Pinto</h1>
@@ -28,6 +32,7 @@ export function About ({sobreClick, portClick}) {
       <nav>
         <p class={styles.p1} onClick={sobreClick}>Sobre</p>
         <p class={styles.p1} onClick={portClick}>Portfólio</p>
+        <a class={styles.p1} onClick={cvClick}>CV</a>
       </nav>
     </header>
     );
