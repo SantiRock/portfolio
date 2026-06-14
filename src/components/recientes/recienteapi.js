@@ -29,7 +29,14 @@ export const recentapi = {
     chocoesp : {
         title: "Chocolate Espeso",
         fecha: "2026",
-        concepto: "Desenvolvimento de ferramentas para gestão de contabilidade e finanças. Em andamento.",
+        concepto: "Desenvolvimento de ferramentas para gestão de contabilidade e finanças.",
+                enlaces: [
+            {
+                id: "che",
+                enlace: "https://chocolate-espeso.lovable.app/",
+                text: "Website"
+            },
+        ]
     },
     zhizhwa : {
         title: 'Zhizhwa',
