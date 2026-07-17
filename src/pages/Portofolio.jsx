@@ -63,14 +63,14 @@ export function Portofolio() {
         <h3 id="video" onclick={open_Video}>Live Visuals <span class={styles.cant}>({vc})</span></h3>
         {showVideo() && (<Video />)}
 
+        <h3 id="web" onclick={open_Web}>Web <span class={styles.cant}>({wc})</span></h3>
+        {showWeb() && (<Web />)}
+
         <h3 id="movies" onclick={open_Movies}>Filmografia <span class={styles.cant}>({mc})</span></h3>
         {showMovies() && (<Movies />)}
 
         <h3 id="sound" onclick={open_Sound}>Som e música <span class={styles.cant}>({sc})</span></h3>
         {showSound() && (<Sound />)}
-
-        <h3 id="web" onclick={open_Web}>Web <span class={styles.cant}>({wc})</span></h3>
-        {showWeb() && (<Web />)}
       </div>
     </div>
   );

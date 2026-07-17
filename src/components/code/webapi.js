@@ -2,7 +2,7 @@ export const webapi = {
     aigallery : {
         title: 'Gallery',
         fecha: '2025',
-        concepto: 'Galeria de imagens próprias',
+        concepto: 'Universo Visual',
         stack: 'js vanilla',
         enlaces: [
             {

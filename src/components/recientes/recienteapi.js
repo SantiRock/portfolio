@@ -55,7 +55,7 @@ export const recentapi = {
     gallery : {
         title: 'Gallery',
         fecha: '2025',
-        concepto: 'Universo visual',
+        concepto: 'Universo Visual',
         enlaces: [
             {
                 id: 'aigallery',
