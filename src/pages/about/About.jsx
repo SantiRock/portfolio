@@ -18,6 +18,10 @@ export function About ({sobreClick, portClick}) {
     window.open("/SantiagoQuinteroCV2026.pdf", "_blank");
   }
 
+  const mlClick = () => {
+    window.open("/Santiago_Quintero_Mediador_Linguistico_Artes.pdf", "_blank");
+  }
+
   return(
     <header>
       <h1>Santiago Quintero Pinto</h1>
@@ -34,6 +38,7 @@ export function About ({sobreClick, portClick}) {
         <p class={styles.p1} onClick={sobreClick}>Sobre</p>
         <p class={styles.p1} onClick={portClick}>Portfólio</p>
         <a class={styles.p1} onClick={cvClick}>CV</a>
+        <a class={styles.p1} onClick={mlClick}>Mediação Linguística</a>
       </nav>
     </header>
     );

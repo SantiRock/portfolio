@@ -1,28 +1,18 @@
 export const recentapi = {
-    pipoca : {
-        title: "Pipoca",
+    av8 : {
+        title: "AV8",
         fecha: "2026",
-        concepto: "Projeto musical que incorpora inteligência artificial dentro de um processo criativo guiado por uma busca artística sonora e visual. Não se limita a um gênero específico, mas explora fusões sonoras abertas",
+        concepto: "AV8 é um projeto que investiga a imagem em tempo real por meio da programação gráfica. Busca desenvolver experiências estéticas a partir do código, explorando seu potencial expressivo como linguagem visual.",
         enlaces: [
             {
-                id: "ppcweb",
-                enlace: "https://pipoca.vercel.app/",
-                text: "Website"
+                id:"av8oficial",
+                enlace:"https://av8visual.vercel.app/",
+                text:"AV8 Website"
             },
             {
-                id: "ppcinst",
-                enlace: "https://www.instagram.com/pipocatunes/",
-                text: "Instagram"
-            },
-            {
-                id: "ppcbc",
-                enlace: "https://pipocamusic.bandcamp.com/",
-                text: "Bandcamp"
-            },
-            {
-                id: "ppcyt",
-                enlace: "https://www.youtube.com/@pipocatunes",
-                text: "Youtube Channel"
+                id:"oficina1",
+                enlace:"https://oficina-shaders.vercel.app/",
+                text:"Oficina: Shaders ao Vivo"
             },
         ]
     },
@@ -30,7 +20,7 @@ export const recentapi = {
         title: "Chocolate Espeso",
         fecha: "2026",
         concepto: "Desenvolvimento de ferramentas para gestão de contabilidade e finanças.",
-                enlaces: [
+        enlaces: [
             {
                 id: "che",
                 enlace: "https://chocolate-espeso.lovable.app/",
@@ -65,7 +55,7 @@ export const recentapi = {
     gallery : {
         title: 'Gallery',
         fecha: '2025',
-        concepto: 'Galeria de imagens próprias',
+        concepto: 'Universo visual',
         enlaces: [
             {
                 id: 'aigallery',
