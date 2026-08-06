@@ -26,25 +26,20 @@ function Recent ({obj}) {
 
 export function Recientes () {
     const [showAv8, setShowAv8] = createSignal(false);
-    const [showAi, setShowAi] = createSignal(false);
+    const [showCacao, setShowCacao] = createSignal(false);
     const [showZhizwha, setShowZhizwha] = createSignal(false);
-    const [showAstronativo, setShowAstronativo] = createSignal(false);
     const [showGallery, setShowGallery] = createSignal(false);
 
     const open_av8 = () => {
         setShowAv8(prev => !prev);
     }
 
-    const open_ai = () => {
-        setShowAi(prev => !prev);
+    const open_Cacao = () => {
+        setShowCacao(prev => !prev);
     }
 
     const open_Zhizhwa = () => {
         setShowZhizwha(prev => !prev);
-    }
-
-    const open_Astronativo = () => {
-        setShowAstronativo(prev => !prev);
     }
 
     const open_Gallery = () => {
@@ -57,14 +52,11 @@ export function Recientes () {
                 <li id="av8" class={styles.proyecto} onclick={open_av8}>AV8 <span class={styles.type}>Arte Digital</span> / 2026</li>
                 {showAv8() && (<Recent obj={recentapi.av8}/>)}    
 
-                <li id="chocoesp" class={styles.proyecto} onclick={open_ai}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2026</li>
-                {showAi() && (<Recent obj={recentapi.chocoesp}/>)}
+                <li id="chocoesp" class={styles.proyecto} onclick={open_Cacao}>Chocolate Espeso <span class={styles.type}>Produção</span> / 2026</li>
+                {showCacao() && (<Recent obj={recentapi.chocoesp}/>)}
 
                 <li id="zhizhwa" class={styles.proyecto} onclick={open_Zhizhwa}>Zhizhwa <span class={styles.type}>Net Art</span> / 2025</li>
                 {showZhizwha() && (<Recent obj={recentapi.zhizhwa}/>)}
-
-                <li id="astronativo" class={styles.proyecto} onclick={open_Astronativo}>Astronativo <span class={styles.type}>Live Visuals</span> / 2024 - 2025</li>
-                {showAstronativo() && (<Recent obj={recentapi.astronativo}/>)}
 
                 <li id="gallery" class={styles.proyecto} onclick={open_Gallery}>Gallery <span class={styles.type}>Artes gráficas</span> / 2025 - 2026</li>
                 {showGallery() && (<Recent obj={recentapi.gallery}/>)}

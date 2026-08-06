@@ -40,18 +40,6 @@ export const recentapi = {
             }
         ],
     },
-    astronativo : {
-        title: 'Astronativo',
-        fecha: '2024-2025',
-        concepto: 'Processo criativo focado na produção e operação ao vivo de visuais para o projeto musical Astronativo, a partir da prática do VJing. Inclui apresentações realizadas na COP16 (2024) e no Circuito da Biodiversidade e Sucursal Fest (2025), em Cali, Colômbia.',
-        enlaces: [
-            {
-                id: 'astrontv',
-                enlace: 'https://www.instagram.com/astronativos/',
-                text: 'Instagram'
-            }
-        ],
-    },
     gallery : {
         title: 'Gallery',
         fecha: '2025',

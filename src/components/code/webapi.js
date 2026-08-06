@@ -1,116 +1,4 @@
 export const webapi = {
-    aigallery : {
-        title: 'Gallery',
-        fecha: '2025',
-        concepto: 'Universo Visual',
-        stack: 'js vanilla',
-        enlaces: [
-            {
-                id: 'aigallery',
-                enlace: 'https://santirock.github.io/ai_gallery/',
-                text: 'Site Web: Gallery'
-            },
-        ],
-    },
-    sqpweb : {
-        title: 'FrontEnd Studio',
-        fecha: '2024',
-        concepto: 'Site pessoal para oferecer serviços de desenvolvimento Frontend, criação de páginas web.',
-        stack: 'Vue.js',
-        enlaces: [
-            {
-                id: 'frontendstudio',
-                enlace: 'https://sqpweb.netlify.app/',
-                text: 'Site Web: FrontEnd Studio'
-            },
-        ],
-    },
-
-    filmoteka : {
-        title: 'Filmoteka',
-        fecha: '2023',
-        concepto: 'Página para buscar informações sobre filmes e ver tendências por meio da The Movie Database API.',
-        stack: 'Javascript Vanilla, TMDB API',
-        enlaces: [
-            {
-                id: 'filmotekaksjsjd',
-                enlace: 'https://santirock.github.io/Filmoteka/',
-                text: 'Site Web: Filmoteka'
-            },
-            {
-                id: 'themodoodvvefapi',
-                enlace: 'https://developer.themoviedb.org/docs/getting-started',
-                text: 'The Movie Database API'
-            }
-        ],
-    },
-
-    kinopoisk : {
-        title: 'Kinopoisk',
-        fecha: '2023',
-        concepto: 'Página para buscar informações sobre filmes e ver tendências por meio da The Movie Database API, com um formato diferente ao da Filmoteka e desenvolvida com React.',
-        stack: 'React, TMDB API',
-        enlaces: [
-            {
-                id: 'kinopopikdhsda',
-                enlace: 'https://santirock.github.io/Kinopoisk/',
-                text: 'Site Web: Kinopoisk'
-            },
-            {
-                id: 'themodoodvvefapi',
-                enlace: 'https://developer.themoviedb.org/docs/getting-started',
-                text: 'The Movie Database API'
-            }
-        ],
-    },
-
-    swapi : {
-        title: 'SWAPI Challenge',
-        fecha: '2023',
-        concepto: 'Desafio de criar uma página o mais versátil possível a partir da SWAPI, The Star Wars API.',
-        stack: 'Javascript Vanilla, SWAPI The Star Wars API',
-        enlaces: [
-            {
-                id: 'swapisischalsjsnds',
-                enlace: 'https://santirock.github.io/swapi-challenge/',
-                text: 'Site Web: SWAPI Challenge'
-            },
-            {
-                id: 'swapisoficial',
-                enlace: 'https://swapi.dev/',
-                text: 'SWAPI'
-            }
-        ],
-    },
-
-    icecream : {
-        title: 'IceCream',
-        fecha: '2022',
-        concepto: 'Página para a loja fictícia IceCream',
-        stack: 'HTML, CSS, Javascript',
-        enlaces: [
-            {
-                id: 'icecreamsjsj',
-                enlace: 'https://santirock.github.io/IceCream/',
-                text: 'Site Web: IceCream'
-            }
-        ],
-    },
-
-    webstudio : {
-        title: 'WebStudio',
-        fecha: '2022',
-        concepto: 'Página para a empresa fictícia WebStudio',
-        stack: 'HTML, CSS',
-        enlaces: [
-            {
-                id: 'webstudioxnn',
-                enlace: 'https://santirock.github.io/Web_Studio/',
-                text: 'Site Web: WebSudio'
-            }
-        ],
-    },
-
     zhizhwa : {
         title: 'Zhizhwa',
         fecha: '2025',
@@ -124,47 +12,125 @@ export const webapi = {
             }
         ],
     },
-
-    petronico : {
-        title: 'Petronico',
-        fecha: '2024',
-        concepto: 'Página para promover o evento Petronio Sessions',
-        stack: 'Javascript Vanilla',
+    aigallery : {
+        title: 'Gallery',
+        fecha: '2025',
+        concepto: 'Universo Visual',
+        stack: 'js vanilla',
+        enlaces: [
+            {
+                id: 'aigallery',
+                enlace: 'https://santirock.github.io/ai_gallery/',
+                text: 'Site Web: Gallery'
+            },
+        ],
+    },
+    md : {
+        title: 'Material Didático',
+        fecha: '2024 - 2026',
+        concepto: 'Site web desenvolvidos como material de apoio para oficinas e processos pedagógicos.',
+        stack: 'js vanilla, webgl, Threejs, glsl',
+        enlaces: [
+            {
+                id: 'fs1',
+                enlace: 'https://santirockk.github.io/fsexample1/',
+                text: 'Fragment Shader Example 1'
+            },
+            {
+                id: 'fs2',
+                enlace: 'https://santirockk.github.io/fspoints/',
+                text: 'Fragment Shader Example 2'
+            },
+            {
+                id: '3dskull',
+                enlace: 'https://santirockk.github.io/test-skull/',
+                text: 'Skull 3D'
+            },
+            {
+                id: 'webgldm',
+                enlace: 'https://santirockk.github.io/webgl_drawing_modes/',
+                text: 'WebGL Drawing Modes'
+            },
+        ],
+    },
+    playground : {
+        title: 'Playground',
+        fecha: '2022 - 2024',
+        concepto: 'Sites web desenvolvidos como experimentos técnicos e exercícios de aprendizado.',
+        stack: 'js vanilla, vue, react, redux, redux toolkit, webgl',
         enlaces: [
             {
                 id: 'petronicoo',
-                enlace: 'https://santirock.github.io/petronico/',
-                text: 'Site Web: Petronico'
+                enlace: 'https://santirockk.github.io/petronico/',
+                text: 'Petronico'
+            },
+            {
+                id: 'frontendstudio',
+                enlace: 'https://santirockk.github.io/web/',
+                text: 'FrontEnd Studio'
+            },
+            {
+                id: 'filmotekaksjsjd',
+                enlace: 'https://santirockk.github.io/Filmoteka/',
+                text: 'Filmoteka'
+            },
+            {
+                id: 'kinopopikdhsda',
+                enlace: 'https://santirockk.github.io/Kinopoisk/',
+                text: 'Kinopoisk'
+            },
+            {
+                id: 'icecreamsjsj',
+                enlace: 'https://santirockk.github.io/IceCream/',
+                text: 'IceCream'
+            },
+            {
+                id: 'frontendmentor',
+                enlace: 'https://www.frontendmentor.io/profile/SantiRock',
+                text: 'FrontendMento Profile with 7 projects'
+            },
+            {
+                id: 'fm1',
+                enlace: 'https://santirockk.github.io/multi-step-form/',
+                text: 'Pixel Perfect Multi-Step-Form with Redux Toolkit'
+            },
+            {
+                id: 'fm2',
+                enlace: 'https://santirockk.github.io/interactive-comments-section/',
+                text: 'Interactive comments section with redux / redux-toolkit'
+            },
+            {
+                id: 'fm3',
+                enlace: 'https://santirockk.github.io/ip-address-tracker/',
+                text: 'IP-Address-Tracker Pixel Perfect'
+            },
+            {
+                id: 'fm5',
+                enlace: 'https://santirockk.github.io/newsletter-sing-in-with-success-message/',
+                text: 'Newsletter sign-up form with success message (React - Vite)'
+            },
+            {
+                id: 'webstudioxnn',
+                enlace: 'https://santirockk.github.io/Web_Studio/',
+                text: 'WebSudio'
+            },
+            {
+                id: 'swapisischalsjsnds',
+                enlace: 'https://santirockk.github.io/swapi-challenge/',
+                text: 'Site Web: SWAPI Challenge'
             },
         ],
     },
-
-    skull: {
-        title: 'Skull Test',
-        fecha: '2025',
-        concepto: 'Página de teste para experimentar imagem 3D com a biblioteca Three.js. Pode demorar um pouco para carregar.',
-        stack: 'Javascript Vanilla, Threejs',
+    chocoesp : {
+        title: "Chocolate Espeso",
+        fecha: "2026",
+        concepto: "Desenvolvimento de ferramentas para gestão de contabilidade e finanças.",
         enlaces: [
             {
-                id: 'skulltestt',
-                enlace: 'https://santirock.github.io/test-skull/',
-                text: 'Site Web: Skull Test'
+                id: "che",
+                enlace: "https://chocolate-espeso.lovable.app/",
+                text: "Website"
             },
-        ],
+        ]
     },
-
-    webgldm : {
-        title: 'WebGL Drawing Modes',
-        fecha: '2024',
-        concepto: 'Página para ilustrar os diferentes modos de desenho dos vertex shaders usando a API WebGL. Faz parte da minha pesquisa da linguagem GLSL no contexto web. Se não carregar bem da primeira vez, por favor recarregue ou clique em um dos botões dos diferentes exemplos.',
-        stack: 'Javascript Vanilla, WebGL, glsl shaders',
-        enlaces: [
-            {
-                id: 'webgldmm',
-                enlace: 'https://santirock.github.io/webgl_drawing_modes/',
-                text: 'Site Web: WebGL Drawing Modes'
-            },
-        ],
-    },
- 
 }

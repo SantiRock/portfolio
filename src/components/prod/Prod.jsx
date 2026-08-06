@@ -88,7 +88,6 @@ export function Prod () {
 
   const open_CaribeSound = () => {
     setShowCaribeSound(prev => !prev);
-
   }
 
   const open_Mas = () => {
@@ -105,6 +104,7 @@ export function Prod () {
 
             <li id="mas" class={styles.proyecto} onclick={open_Mas}>+</li>
             {showMas() && (<MasProd />)}
+
           </ul>    
         </div>
     );
