@@ -54,14 +54,14 @@ export function Portofolio() {
         <h3 id="recientes" onclick={open_Recientes}>Projetos em destaque <span class={styles.cant}>({rc})</span></h3>
         {showRecientes() && (<Recientes />)}
 
-        <h3 id="web" onclick={open_Web}>Web <span class={styles.cant}>({wc})</span></h3>
-        {showWeb() && (<Web />)}
-
         <h3 id="video" onclick={open_Video}>Live Visuals <span class={styles.cant}>({vc})</span></h3>
         {showVideo() && (<Video />)}
 
         <h3 id="spaces" onclick={open_Espacios}>Espaços e Associações <span class={styles.cant}>({ec})</span></h3>
         {showEspacios() && (<Espacios />)}
+
+        <h3 id="web" onclick={open_Web}>Web <span class={styles.cant}>({wc})</span></h3>
+        {showWeb() && (<Web />)}
        
         <h3 id="prod" onclick={open_Prod}>Produção de eventos <span class={styles.cant}>({pc})</span></h3>
         {showProd() && (<Prod />)}

@@ -13,10 +13,6 @@ export function Visual () {
                 </div>
                 <div class={styles.statment}>
                     <p class={styles.p1}>Trabalhei com diversos softwares — MadMapper, Modul8, TouchDesigner — mas o que domino melhor é o Resolume. Atualmente estou explorando o OpenFrameworks, com foco na linguagem de shaders e na criação de interfaces personalizadas de acordo com as necessidades de cada projeto.</p>
-                    <div class={styles.statment1}>
-                        <p>Nota prática: não tenho licenças de software comercial. Para projetos que exijam o Resolume, a produção deve fornecer o software. Para meus projetos pessoais uso o OpenFrameworks</p>
-                    </div>
-
                 </div>
             </div>
         </div>
