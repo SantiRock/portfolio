@@ -48,6 +48,7 @@ function VideoProjects ({obj}) {
 
 
 export function Video () {
+  const [showAv8, setShowAv8] = createSignal(false);
   const [showSucursalFest, setShowSucursalFest] = createSignal(false);
   const [showSemanaBio, setShowSemanaBio] = createSignal(false);
   const [showCop16, setShowCop16] = createSignal(false);
@@ -69,6 +70,9 @@ export function Video () {
   const [showAtusombra, setShowAtusombra] = createSignal(false);
   const [showEncarnacion, setShowEncarnacion] = createSignal(false);
 
+  const open_Av8 = () => {
+    setShowAv8(prev => !prev);
+  }
 
   const open_SucursalFest = () => {
     setShowSucursalFest(prev => !prev);
@@ -156,6 +160,9 @@ export function Video () {
   return(
     <div class={styles.container}>
       <ul>
+
+        <li id="av8_" class={styles.proyecto} onclick={open_Av8}>AV8 <span class={styles.type}>Arte Digital</span> / 2025 - 2026</li>
+        {showAv8() && (<VideoProjects obj={videosApi.av8}/>)}
 
         <li id="sucursalfest_" class={styles.proyecto} onclick={open_SucursalFest}>Astronativo no Sucursal Fest <span class={styles.type}>Show - Visuais</span> / 2025</li>
         {showSucursalFest() && (<VideoProjects obj={videosApi.sucursalfest}/>)}

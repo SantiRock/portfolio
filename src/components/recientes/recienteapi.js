@@ -14,6 +14,32 @@ export const recentapi = {
                 enlace:"https://oficina-shaders.vercel.app/",
                 text:"Oficina: Shaders ao Vivo"
             },
+        ],
+        images: [
+        {
+            id: 1,
+            srcset: '',
+            src: '/images/video/a1v8/av1@2x.jpg',
+            image: '/images/video/a1v8/av1.jpg',
+            alt: 'rgb',
+            credit: ''
+        },
+        {
+            id: 2,
+            srcset: '',
+            src: '/images/video/a1v8/av2@2x.jpg',
+            image: '/images/video/a1v8/av2.jpg',
+            alt: 'interface of',
+            credit: ''
+        },
+        {
+            id: 3,
+            srcset: '',
+            src: '/images/video/a1v8/av3@2x.jpg',
+            image: '/images/video/a1v8/av3.jpg',
+            alt: 'workshop',
+            credit: ''
+        },
         ]
     },
     chocoesp : {

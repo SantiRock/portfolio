@@ -1,5 +1,6 @@
 import { createSignal } from "solid-js";
 import { recentapi } from "./recienteapi";
+import { Images } from "../images/Images";
 import styles from "../Components.module.css";
 
 export const rc = Object.keys(recentapi).length;
@@ -18,6 +19,7 @@ function Recent ({obj}) {
               <li key={id}><a href={enlace} target="_blank">{text}</a></li>
             ))}
           </ul>
+          {obj.images && (<Images obj={obj}/>)}
         </>
       )}
     </div>
