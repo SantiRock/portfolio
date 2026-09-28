@@ -19,9 +19,12 @@ export function Home () {
                     <a class={styles.pl} href="#explo">- Desenvolvimento web</a>
                 </div>
             </div>
-            <Producao />
-            <Visual />
-            <Exploracoes />
+            <div class={styles.sc}>
+                <Producao />
+                <Visual />
+                <Exploracoes />
+            </div>
+
         </div>
     );
 }
