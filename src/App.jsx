@@ -4,6 +4,7 @@ import { Portofolio } from './pages/Portofolio'
 import { Home } from './pages/Home'
 import { About } from './pages/about/About';
 import { Footer } from './pages/footer/Footer';
+import { ShaderBackground } from './components/shaderbackground/ShaderBackground';
 
 function App() {
   const [showHome, setShowHome] = createSignal(true);
@@ -20,6 +21,8 @@ function App() {
   }
  
   return (
+    <>
+    <ShaderBackground />
     <div class={styles.container}>
       <About sobreClick={sobreClick} portClick={portClick}/>
       <main>
@@ -28,6 +31,7 @@ function App() {
       </main>
       <Footer/>
     </div>
+    </>
   );
 }
 

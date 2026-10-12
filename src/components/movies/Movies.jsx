@@ -122,7 +122,6 @@ function Mas () {
 
 
 export function Movies () {
-  const [showMyswa, setShowMyswa] = createSignal(false);
   const [showAguaSalada, setShowAguaSalada] = createSignal(false);
   const [showAndromeda, setShowAndromeda] = createSignal(false);
   const [showBaladaRock, setShowBaladaRock] = createSignal(false);
@@ -131,10 +130,6 @@ export function Movies () {
   const [showJattends, setShowJattends] = createSignal(false);
   const [showArb, setShowArb] = createSignal(false);
   const [showMas, setShowMas] = createSignal(false);
-
-  const open_Myswa = () => {
-    setShowMyswa(prev => !prev);
-  }
 
   const open_AguaSalada = () => {
     setShowAguaSalada(prev => !prev);
@@ -171,9 +166,6 @@ export function Movies () {
     return(
       <div class={styles.container}>
         <ul>
-          <li id="myswa" class={styles.proyecto} onclick={open_Myswa}>Myswa0.0 <span class={styles.type}>Curta Experimental IA</span> / 2025</li>
-          {showMyswa() && (<Movie obj={moviesapi.myswa}/>)}
-
           <li id="aguasalada" class={styles.proyecto} onclick={open_AguaSalada}>Agua Salada <span class={styles.type}>Curta de Ficção</span> / 2022</li>
           {showAguaSalada() && (<Movie obj={moviesapi.aguasalada}/>)}
           
